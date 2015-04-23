@@ -1,0 +1,718 @@
+C:\NewVersions\NewGYM\Gym\GYM\GYM\bin\Debug\GYM.exe.config
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.exe
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.xml
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.pdb
+C:\NewVersions\NewGYM\Gym\GYM\GYM\bin\Debug\GYM.exe
+C:\NewVersions\NewGYM\Gym\GYM\GYM\bin\Debug\GYM.pdb
+C:\NewVersions\NewGYM\Gym\GYM\GYM\bin\Debug\GYM.xml
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Alerts.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.custAlerts.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Form1.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmErrorReport.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmUserPreferences.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.LoginForm.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Attendance.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.BankAccounts.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Banks.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Categories.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.AppUsers.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ChatClient.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CheckDetails.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CheckHeader.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Cheques.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ChequesStatus.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Cities.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Companies.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Corporations.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Countries.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Customers.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CustomersAttendance.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CustomersEvaluationDetails.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CustomersEvaluations.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CustomersOrderEvaluation.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Departments.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.DiscountCategories.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmpAddedHours.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Employees.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesDiscounts.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Employeesextra.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesRewards.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesShifts.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesTasks.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesVacations.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ExpensesDetails.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ExpensesMaster.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Extra.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceItemName.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmCustomersEvaluations.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmWindows.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Halls.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Items.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ItemsStocks.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ItemsVendors.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Jobs.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Locations.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.MasterRecord.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.NetProfitDetails.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Regions.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.RewardsCategories.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SecurityGroupDetails.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SecurityGroupHeader.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Shifts.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Shift_Details.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ShowAllReports.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SpecialCategories.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SpecialSubscriptions.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Stocks.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SubscriptionDetails.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Subscriptions.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SubscriptionsCategories.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SubStocks.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.UmDetails.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.UmMaster.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Vendors.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Visa.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Resources.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CreateDB.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.GeneralLabel.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.GeneralTextBox.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.MasterField.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SearchWindow.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.TrainerDetails.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmCountSpecialSubscriptions.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmCountSubscription.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmCustomersAttendace.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmCustomerTeansaction.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmEmployeesExtra.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmInvLog.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmItemsStocksBalance.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmMostCountHalls.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmMostNoCustToTrainer.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmReportItemsStocks.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmReportStockValue.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmSubscriptionsDetails.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmTrainerAttendance.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmVendorsTrans.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PrintBarCode.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PrintEmpBarCode.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportAdjustments.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportAnyAccount.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportAnyAccountBalance.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportBanksBalance.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportCusReturns.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportDailyPro.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportDepartmentsEmployees.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportDepItems.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportEmpAttendance.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportEmpPayingSalary.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.reportItemExpiration.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportPaySalary.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportPurchaseOrder.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportSalesOrder.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportSubscription.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportUserLog.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportVenReturns.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Adjustments.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.BalanceBook.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.BalanceSheet.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.DailyProcedures.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.DepProcedures.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesLoansPhases.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceItemBarcode.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceStock.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ItemsDep.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.MoneyPayments.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.MoneyReceivables.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PaymentSchedule.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PaySalary.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PayTotalSalary.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ProceduresTrans.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PurchaseOrderNormal.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReturnsCustomers.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReturnsVendors.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SalesOrderNormal.resources
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Work\last5\NewGYM\Gym\GYM\GYM\bin\Debug\GYM.exe.config
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.exe
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.xml
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.pdb
+G:\Work\last5\NewGYM\Gym\GYM\GYM\bin\Debug\GYM.exe
+G:\Work\last5\NewGYM\Gym\GYM\GYM\bin\Debug\GYM.pdb
+G:\Work\last5\NewGYM\Gym\GYM\GYM\bin\Debug\GYM.xml
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Alerts.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.custAlerts.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Form1.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmErrorReport.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmUserPreferences.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.LoginForm.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Attendance.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.BankAccounts.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Banks.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Categories.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.AppUsers.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ChatClient.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CheckDetails.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CheckHeader.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Cheques.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ChequesStatus.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Cities.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Companies.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Corporations.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Countries.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Customers.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CustomersAttendance.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CustomersEvaluationDetails.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CustomersEvaluations.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CustomersOrderEvaluation.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Departments.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.DiscountCategories.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmpAddedHours.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Employees.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesDiscounts.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Employeesextra.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesRewards.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesShifts.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesTasks.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesVacations.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ExpensesDetails.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ExpensesMaster.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Extra.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceItemName.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmCustomersEvaluations.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmWindows.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Halls.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Items.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ItemsStocks.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ItemsVendors.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Jobs.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Locations.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.MasterRecord.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.NetProfitDetails.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Regions.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.RewardsCategories.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SecurityGroupDetails.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SecurityGroupHeader.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Shifts.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Shift_Details.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ShowAllReports.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SpecialCategories.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SpecialSubscriptions.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Stocks.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SubscriptionDetails.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Subscriptions.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SubscriptionsCategories.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SubStocks.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.UmDetails.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.UmMaster.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Vendors.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Visa.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Resources.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.CreateDB.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.GeneralLabel.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.GeneralTextBox.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.MasterField.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SearchWindow.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.TrainerDetails.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmCountSpecialSubscriptions.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmCountSubscription.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmCustomersAttendace.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmCustomerTeansaction.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmEmployeesExtra.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmInvLog.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmItemsStocksBalance.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmMostCountHalls.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmMostNoCustToTrainer.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmReportItemsStocks.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmReportStockValue.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmSubscriptionsDetails.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmTrainerAttendance.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FrmVendorsTrans.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PrintBarCode.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PrintEmpBarCode.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportAdjustments.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportAnyAccount.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportAnyAccountBalance.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportBanksBalance.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportCusReturns.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportDailyPro.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportDepartmentsEmployees.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportDepItems.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportEmpAttendance.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportEmpPayingSalary.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.reportItemExpiration.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportPaySalary.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportPurchaseOrder.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportSalesOrder.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportSubscription.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportUserLog.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReportVenReturns.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.Adjustments.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.BalanceBook.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.BalanceSheet.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.DailyProcedures.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.DepProcedures.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.EmployeesLoansPhases.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceItemBarcode.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceStock.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ItemsDep.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.MoneyPayments.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.MoneyReceivables.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PaymentSchedule.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PaySalary.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PayTotalSalary.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ProceduresTrans.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.PurchaseOrderNormal.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReturnsCustomers.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.ReturnsVendors.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.SalesOrderNormal.resources
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GenerateResource.read.145.tlog
+G:\Work\last5\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\NewVersions\NewGYM\Gym\GYM\GYM\obj\x86\Debug\GYM.dailysubscriptions.resources
+G:\Work\Last Gym\GYM\bin\Debug\GYM.exe.config
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.exe
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.xml
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.pdb
+G:\Work\Last Gym\GYM\bin\Debug\GYM.exe
+G:\Work\Last Gym\GYM\bin\Debug\GYM.pdb
+G:\Work\Last Gym\GYM\bin\Debug\GYM.xml
+G:\Work\Last Gym\GYM\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Alerts.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Categories.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.CheckHeader.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Cheques.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Cities.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Companies.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Corporations.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Countries.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.custAlerts.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Customers.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.CustomersAttendance.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Form1.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmErrorReport.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmUserPreferences.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.LoginForm.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Attendance.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.BankAccounts.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Banks.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.AppUsers.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ChatClient.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.CheckDetails.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ChequesStatus.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.CustomersEvaluationDetails.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.CustomersEvaluations.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.CustomersOrderEvaluation.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.dailysubscriptions.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Departments.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.DiscountCategories.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.EmpAddedHours.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Employees.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.EmployeesDiscounts.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Employeesextra.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.EmployeesRewards.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.EmployeesShifts.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.EmployeesTasks.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.EmployeesVacations.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ExpensesDetails.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ExpensesMaster.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Extra.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FirstBalanceItemName.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmCustomersEvaluations.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmWindows.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Halls.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Items.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ItemsStocks.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ItemsVendors.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Jobs.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Locations.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.MasterRecord.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.NetProfitDetails.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Regions.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.RewardsCategories.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.SecurityGroupDetails.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.SecurityGroupHeader.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Shifts.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Shift_Details.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ShowAllReports.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.SpecialCategories.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.SpecialSubscriptions.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Stocks.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.SubscriptionDetails.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Subscriptions.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.SubscriptionsCategories.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.SubStocks.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.UmDetails.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.UmMaster.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Vendors.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Visa.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Resources.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.CreateDB.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.GeneralLabel.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.GeneralTextBox.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.MasterField.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.SearchWindow.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.TrainerDetails.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmCountSpecialSubscriptions.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmCountSubscription.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmCustomersAttendace.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmCustomerTeansaction.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmEmployeesExtra.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmInvLog.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmItemsStocksBalance.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmMostCountHalls.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmMostNoCustToTrainer.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.frmreportallspecialsubscriptions.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.frmreportallsubscriptions.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmReportItemsStocks.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmReportStockValue.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmSubscriptionsDetails.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmTrainerAttendance.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FrmVendorsTrans.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.PrintBarCode.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.PrintEmpBarCode.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportAdjustments.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportAnyAccount.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportAnyAccountBalance.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportBanksBalance.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportCusReturns.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportDailyPro.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportDepartmentsEmployees.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportDepItems.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportEmpAttendance.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportEmpPayingSalary.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.reportItemExpiration.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportPaySalary.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportPurchaseOrder.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportSalesOrder.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportSubscription.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportUserLog.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReportVenReturns.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.Adjustments.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.BalanceBook.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.BalanceSheet.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.DailyProcedures.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.DepProcedures.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.EmployeesLoansPhases.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FirstBalanceItemBarcode.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.FirstBalanceStock.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ItemsDep.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.MoneyPayments.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.MoneyReceivables.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.PaymentSchedule.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.PaySalary.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.PayTotalSalary.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ProceduresTrans.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.PurchaseOrderNormal.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReturnsCustomers.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.ReturnsVendors.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GYM.SalesOrderNormal.resources
+G:\Work\Last Gym\GYM\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Work\Last Gym\GYM\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Work\UPDATE\GYM\GYM\bin\Debug\GYM.exe.config
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.exe
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.xml
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.pdb
+G:\Work\UPDATE\GYM\GYM\bin\Debug\GYM.exe
+G:\Work\UPDATE\GYM\GYM\bin\Debug\GYM.pdb
+G:\Work\UPDATE\GYM\GYM\bin\Debug\GYM.xml
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Alerts.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Categories.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.CheckHeader.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Cheques.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Cities.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Companies.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Corporations.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Countries.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.custAlerts.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Customers.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.CustomersAttendance.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Form1.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmErrorReport.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmUserPreferences.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.LoginForm.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Attendance.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.BankAccounts.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Banks.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.AppUsers.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ChatClient.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.CheckDetails.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ChequesStatus.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.CustomersEvaluationDetails.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.CustomersEvaluations.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.CustomersOrderEvaluation.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.DailySubscriptions.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Departments.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.DiscountCategories.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmpAddedHours.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Employees.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesDiscounts.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Employeesextra.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesRewards.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesShifts.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesTasks.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesVacations.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ExpensesDetails.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ExpensesMaster.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Extra.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceItemName.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmCustomersEvaluations.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmWindows.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Halls.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Items.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ItemsStocks.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ItemsVendors.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Jobs.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Locations.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.MasterRecord.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.NetProfitDetails.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Regions.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.RewardsCategories.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.SecurityGroupDetails.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.SecurityGroupHeader.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Shifts.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ShowAllReports.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.SpecialCategories.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.SpecialSubscriptions.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Stocks.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.SubscriptionDetails.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Subscriptions.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.SubscriptionsCategories.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.SubStocks.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.UmDetails.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.UmMaster.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Vendors.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Visa.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Resources.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.CreateDB.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.GeneralLabel.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.GeneralTextBox.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.MasterField.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.SearchWindow.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.TrainerDetails.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmCountSpecialSubscriptions.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmCountSubscription.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmCustomersAttendace.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmCustomerTeansaction.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmEmployeesExtra.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmInvLog.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmItemsStocksBalance.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmMostCountHalls.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmMostNoCustToTrainer.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.frmreportallspecialsubscriptions.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.frmreportallsubscriptions.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmReportItemsStocks.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmReportStockValue.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmSubscriptionsDetails.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmTrainerAttendance.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmVendorsTrans.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.PrintBarCode.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.PrintEmpBarCode.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportAdjustments.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportAnyAccount.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportAnyAccountBalance.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportBanksBalance.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportCusReturns.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportDailyPro.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportDepartmentsEmployees.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportDepItems.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportEmpAttendance.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportEmpPayingSalary.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.reportItemExpiration.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportPaySalary.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportPurchaseOrder.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportSalesOrder.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportSubscription.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportUserLog.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportVenReturns.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Adjustments.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.BalanceBook.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.BalanceSheet.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.DailyProcedures.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.DepProcedures.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesLoansPhases.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceItemBarcode.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceStock.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ItemsDep.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.MoneyPayments.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.MoneyReceivables.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.PaymentSchedule.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.PaySalary.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.PayTotalSalary.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ProceduresTrans.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.PurchaseOrderNormal.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReturnsCustomers.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReturnsVendors.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.SalesOrderNormal.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Shifts_details.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Subscriptions_Reject.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmReportIncome.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.frmspecialsubscriptions.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.TodayIncome.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.GymAllReports.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.AttendanceManagement.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.salarygroups.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.GeneralSearch.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.frmtotalreportsemployees.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmEmployees.resources
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.Statistics.resources
+E:\AFTER UPDATE\GYM\GYM\bin\Debug\GYM.exe.config
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.exe
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.xml
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.pdb
+E:\AFTER UPDATE\GYM\GYM\bin\Debug\GYM.exe
+E:\AFTER UPDATE\GYM\GYM\bin\Debug\GYM.pdb
+E:\AFTER UPDATE\GYM\GYM\bin\Debug\GYM.xml
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Alerts.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Form1.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.GeneralSearch.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Statistics.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Attendance.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.AttendanceManagement.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Categories.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.CheckHeader.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Cheques.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Cities.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Companies.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Corporations.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Countries.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.custAlerts.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Customers.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmErrorReport.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmUserPreferences.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.LoginForm.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.BankAccounts.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Banks.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.AppUsers.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ChatClient.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.CheckDetails.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ChequesStatus.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.CustomersAttendance.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.CustomersEvaluationDetails.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.CustomersEvaluations.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.CustomersOrderEvaluation.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.DailySubscriptions.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Departments.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.DiscountCategories.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmpAddedHours.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Employees.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesDiscounts.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Employeesextra.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesRewards.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesShifts.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesTasks.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesVacations.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ExpensesDetails.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ExpensesMaster.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Extra.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceItemName.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmCustomersEvaluations.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmWindows.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Halls.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Items.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ItemsStocks.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ItemsVendors.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Jobs.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Locations.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.MasterRecord.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.NetProfitDetails.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Regions.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.RewardsCategories.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.salarygroups.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.SecurityGroupDetails.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.SecurityGroupHeader.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Shifts.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Shifts_details.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ShowAllReports.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.SpecialCategories.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.SpecialSubscriptions.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Stocks.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.SubscriptionDetails.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Subscriptions.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.SubscriptionsCategories.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Subscriptions_Reject.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.SubStocks.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.UmDetails.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.UmMaster.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Vendors.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Visa.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Resources.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.CreateDB.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.GeneralLabel.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.GeneralTextBox.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.MasterField.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.SearchWindow.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.TrainerDetails.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmCountSpecialSubscriptions.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmCountSubscription.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmCustomersAttendace.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmCustomerTeansaction.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmEmployees.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmEmployeesExtra.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmInvLog.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmItemsStocksBalance.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmMostCountHalls.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmMostNoCustToTrainer.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.frmreportallspecialsubscriptions.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.frmreportallsubscriptions.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmReportIncome.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmReportItemsStocks.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmReportStockValue.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.frmspecialsubscriptions.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmSubscriptionsDetails.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.frmtotalreportsemployees.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmTrainerAttendance.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmVendorsTrans.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.GymAllReports.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.PrintBarCode.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.PrintEmpBarCode.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportAdjustments.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportAnyAccount.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportAnyAccountBalance.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportBanksBalance.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportCusReturns.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportDailyPro.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportDepartmentsEmployees.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportDepItems.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportEmpAttendance.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportEmpPayingSalary.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.reportItemExpiration.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportPaySalary.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportPurchaseOrder.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportSalesOrder.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportSubscription.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportUserLog.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReportVenReturns.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.TodayIncome.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.Adjustments.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.BalanceBook.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.BalanceSheet.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.DailyProcedures.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.DepProcedures.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.EmployeesLoansPhases.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceItemBarcode.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.FirstBalanceStock.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ItemsDep.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.MoneyPayments.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.MoneyReceivables.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.PaymentSchedule.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.PaySalary.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.PayTotalSalary.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ProceduresTrans.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.PurchaseOrderNormal.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReturnsCustomers.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.ReturnsVendors.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GYM.SalesOrderNormal.resources
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\AFTER UPDATE\GYM\GYM\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\Work\UPDATE\GYM\GYM\obj\x86\Debug\GYM.FrmReportIncom.resources
+G:\Work\BANHAWY\GYM\GYM\bin\Debug\GYM.exe.config
+G:\Work\BANHAWY\GYM\GYM\obj\x86\Debug\GYM.exe
+G:\Work\BANHAWY\GYM\GYM\obj\x86\Debug\GYM.xml
+G:\Work\BANHAWY\GYM\GYM\obj\x86\Debug\GYM.pdb
