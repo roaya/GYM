@@ -778,7 +778,7 @@ Public Class Form1
         m.MdiParent = Me
         m.Show()
     End Sub
-    
+
 
     Private Sub BtnCheckDetails_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnCheckDetails.Click
         Dim m As New CheckDetails
@@ -1431,7 +1431,7 @@ Public Class Form1
         End Try
     End Sub
 
-    
+
 
     Private Sub BtnBackCard_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         MyDs.Tables("barcodetable1").Rows.Clear()
@@ -1623,7 +1623,7 @@ Public Class Form1
         m.Show()
     End Sub
 
- 
+
 
     Private Sub BtnBackCard_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnBackCard.Click
         MyDs.Tables("barcodetable1").Rows.Clear()
@@ -1788,10 +1788,10 @@ Public Class Form1
         End Try
     End Sub
 
-   
-    
 
-  
+
+
+
 
     Private Sub Button6_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
         If custname.Text = "" Then
@@ -1817,7 +1817,7 @@ Public Class Form1
             cmd.CommandText = "select Extra_disc from app_preferences"
             Extra_D = cmd.ExecuteScalar
 
-       
+
             cmd.CommandText = "select value_group/subscriptions.no_training from Subscriptions,Subscriptions_Details where Subscriptions.Subscription_ID = Subscriptions_Details.Subscription_ID and Subscription_Detail_ID=" & Subscription_ID.SelectedValue
             Train_Value = cmd.ExecuteScalar
 
@@ -1896,7 +1896,7 @@ Public Class Form1
 
 
 
-  
+
 
     Private Sub dailysubsc_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles dailysubsc.SelectedIndexChanged
         Try
@@ -2195,5 +2195,28 @@ Public Class Form1
             End If
         Catch
         End Try
+    End Sub
+
+    Private Sub Button2_Click_6(sender As Object, e As EventArgs) Handles Button2.Click
+        Panel8.Visible = Not Panel8.Visible
+    End Sub
+
+    Private Sub Button10_Click_1(sender As Object, e As EventArgs) Handles Button10.Click
+        Panel9.Visible = Not Panel9.Visible
+
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        Dim m As New Loans
+        m.MdiParent = Me
+        m.Show()
+
+    End Sub
+
+    Private Sub Button8_Click_3(sender As Object, e As EventArgs) Handles Button8.Click
+        Dim m As New EmployeesLoansPhases
+        m.MdiParent = Me
+        m.Show()
+
     End Sub
 End Class
