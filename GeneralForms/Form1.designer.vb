@@ -23,78 +23,42 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.PanelSettings = New System.Windows.Forms.Panel()
+        Me.BtnLocations = New System.Windows.Forms.Button()
         Me.ButtonsImages = New System.Windows.Forms.ImageList(Me.components)
+        Me.BtnRegions = New System.Windows.Forms.Button()
+        Me.BtnCities = New System.Windows.Forms.Button()
+        Me.BtnCountries = New System.Windows.Forms.Button()
+        Me.BtnSetDefault = New System.Windows.Forms.Button()
+        Me.BtnSystemCommands = New System.Windows.Forms.Button()
+        Me.BtnChatServer = New System.Windows.Forms.Button()
+        Me.BtnChatClient = New System.Windows.Forms.Button()
+        Me.BtnShiftsDetails = New System.Windows.Forms.Button()
+        Me.BtnShifts = New System.Windows.Forms.Button()
+        Me.BtnSettings = New System.Windows.Forms.Button()
         Me.PanelSecurity = New System.Windows.Forms.Panel()
+        Me.BtnApp_Users = New System.Windows.Forms.Button()
+        Me.BtnSecurityGroupDetails = New System.Windows.Forms.Button()
+        Me.BtnSecurityGroupHeader = New System.Windows.Forms.Button()
         Me.PanelEmployees = New System.Windows.Forms.Panel()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel20 = New System.Windows.Forms.Panel()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.PanelReports = New System.Windows.Forms.Panel()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.PanelAccounting = New System.Windows.Forms.Panel()
-        Me.Panel19 = New System.Windows.Forms.Panel()
-        Me.Panel18 = New System.Windows.Forms.Panel()
-        Me.Panel17 = New System.Windows.Forms.Panel()
-        Me.Panel16 = New System.Windows.Forms.Panel()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.PanelStatistics = New System.Windows.Forms.Panel()
-        Me.PanelCustomer = New System.Windows.Forms.Panel()
-        Me.PanelStock = New System.Windows.Forms.Panel()
-        Me.PanelVendor = New System.Windows.Forms.Panel()
-        Me.BtnActivatePanel = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.CustBalance = New System.Windows.Forms.TextBox()
-        Me.CustAttendance = New System.Windows.Forms.TextBox()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Cost = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.dailysubsc = New System.Windows.Forms.ComboBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.bydaily = New System.Windows.Forms.RadioButton()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Subscription_ID = New System.Windows.Forms.ComboBox()
-        Me.bysubsc = New System.Windows.Forms.RadioButton()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.coach = New System.Windows.Forms.ComboBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.EmpBarcode = New System.Windows.Forms.TextBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.custcode = New System.Windows.Forms.ComboBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.custname = New System.Windows.Forms.TextBox()
-        Me.SearchBox = New System.Windows.Forms.TextBox()
-        Me.PanelSearch = New System.Windows.Forms.Panel()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.GrdSearchDetails = New System.Windows.Forms.DataGridView()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GrdSearch = New System.Windows.Forms.DataGridView()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.btnReceiv = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.BtnSalaryGroups = New System.Windows.Forms.Button()
         Me.BtnAttendanceLeave = New System.Windows.Forms.Button()
+        Me.Panel9 = New System.Windows.Forms.Panel()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Panel20 = New System.Windows.Forms.Panel()
         Me.BtnEmployeesDiscounts = New System.Windows.Forms.Button()
         Me.BtnDiscountCatergories = New System.Windows.Forms.Button()
         Me.MenuDiscounts = New System.Windows.Forms.Button()
+        Me.Panel4 = New System.Windows.Forms.Panel()
         Me.BtnEmpRewards = New System.Windows.Forms.Button()
         Me.BtnRewardsCategories = New System.Windows.Forms.Button()
         Me.MenuRewards = New System.Windows.Forms.Button()
@@ -104,10 +68,12 @@ Partial Class Form1
         Me.BtnEmployees = New System.Windows.Forms.Button()
         Me.BtnJobs = New System.Windows.Forms.Button()
         Me.BtnDepartments = New System.Windows.Forms.Button()
+        Me.PanelReports = New System.Windows.Forms.Panel()
         Me.BtnPrintEmpCards = New System.Windows.Forms.Button()
         Me.BtnPrintBarcode = New System.Windows.Forms.Button()
         Me.BtnBackCard = New System.Windows.Forms.Button()
         Me.btnreportEmployees = New System.Windows.Forms.Button()
+        Me.Panel8 = New System.Windows.Forms.Panel()
         Me.BtnRptAccountsBalance = New System.Windows.Forms.Button()
         Me.BtnAnyAccount = New System.Windows.Forms.Button()
         Me.BtnReportItemExpiration = New System.Windows.Forms.Button()
@@ -126,6 +92,8 @@ Partial Class Form1
         Me.BtnRptAdjustments = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.BtnGymReports = New System.Windows.Forms.Button()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.PanelAccounting = New System.Windows.Forms.Panel()
         Me.RptIncome = New System.Windows.Forms.Button()
         Me.BtnPaySalary = New System.Windows.Forms.Button()
         Me.BtnPayAllSalaries = New System.Windows.Forms.Button()
@@ -134,24 +102,31 @@ Partial Class Form1
         Me.MenuBalanceSheet = New System.Windows.Forms.Button()
         Me.MenuBalanceBook = New System.Windows.Forms.Button()
         Me.MenuMasterRecord = New System.Windows.Forms.Button()
+        Me.Panel19 = New System.Windows.Forms.Panel()
         Me.MenuMoneyReceivable = New System.Windows.Forms.Button()
         Me.MenuMoneyPayments = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
+        Me.Panel18 = New System.Windows.Forms.Panel()
         Me.MenuBanks = New System.Windows.Forms.Button()
         Me.MenuBanksAccounts = New System.Windows.Forms.Button()
         Me.BtnVisa = New System.Windows.Forms.Button()
         Me.Banks = New System.Windows.Forms.Button()
+        Me.Panel17 = New System.Windows.Forms.Panel()
         Me.MenuCheques = New System.Windows.Forms.Button()
         Me.MenuChequeStatus = New System.Windows.Forms.Button()
         Me.Cheques = New System.Windows.Forms.Button()
+        Me.Panel16 = New System.Windows.Forms.Panel()
         Me.MenuDailyProcedures = New System.Windows.Forms.Button()
         Me.MenuNewProcedureTran = New System.Windows.Forms.Button()
         Me.constraint = New System.Windows.Forms.Button()
         Me.MenuDailyProNames = New System.Windows.Forms.Button()
         Me.MenuIncomeDetailsByPeriod = New System.Windows.Forms.Button()
+        Me.Panel10 = New System.Windows.Forms.Panel()
         Me.MenuExpensesOther = New System.Windows.Forms.Button()
         Me.MenuExpensesHeader = New System.Windows.Forms.Button()
         Me.MenuExpenses = New System.Windows.Forms.Button()
+        Me.PanelStatistics = New System.Windows.Forms.Panel()
+        Me.PanelCustomer = New System.Windows.Forms.Panel()
         Me.BntSubscReturn = New System.Windows.Forms.Button()
         Me.BtnCompanies = New System.Windows.Forms.Button()
         Me.BtnCustOrderEvaluation = New System.Windows.Forms.Button()
@@ -167,6 +142,7 @@ Partial Class Form1
         Me.BtnCustomerReturns = New System.Windows.Forms.Button()
         Me.BtnSalesOrder = New System.Windows.Forms.Button()
         Me.BtnCustomers = New System.Windows.Forms.Button()
+        Me.PanelStock = New System.Windows.Forms.Panel()
         Me.BtnAdjustments = New System.Windows.Forms.Button()
         Me.BtnCheckDetails = New System.Windows.Forms.Button()
         Me.BtnCheckHeader = New System.Windows.Forms.Button()
@@ -178,24 +154,48 @@ Partial Class Form1
         Me.BtnUmMaster = New System.Windows.Forms.Button()
         Me.BtnCorporations = New System.Windows.Forms.Button()
         Me.BtnItems = New System.Windows.Forms.Button()
-        Me.BtnApp_Users = New System.Windows.Forms.Button()
-        Me.BtnSecurityGroupDetails = New System.Windows.Forms.Button()
-        Me.BtnSecurityGroupHeader = New System.Windows.Forms.Button()
+        Me.PanelVendor = New System.Windows.Forms.Panel()
         Me.BtnVendorReturns = New System.Windows.Forms.Button()
         Me.BtnPurchaseBill = New System.Windows.Forms.Button()
         Me.BtnItemsVendor = New System.Windows.Forms.Button()
         Me.BtnVendors = New System.Windows.Forms.Button()
-        Me.BtnLocations = New System.Windows.Forms.Button()
-        Me.BtnRegions = New System.Windows.Forms.Button()
-        Me.BtnCities = New System.Windows.Forms.Button()
-        Me.BtnCountries = New System.Windows.Forms.Button()
-        Me.BtnSetDefault = New System.Windows.Forms.Button()
-        Me.BtnSystemCommands = New System.Windows.Forms.Button()
-        Me.BtnChatServer = New System.Windows.Forms.Button()
-        Me.BtnChatClient = New System.Windows.Forms.Button()
-        Me.BtnShiftsDetails = New System.Windows.Forms.Button()
-        Me.BtnShifts = New System.Windows.Forms.Button()
-        Me.BtnSettings = New System.Windows.Forms.Button()
+        Me.BtnActivatePanel = New System.Windows.Forms.Button()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.btnReceiv = New System.Windows.Forms.Button()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.CustBalance = New System.Windows.Forms.TextBox()
+        Me.CustAttendance = New System.Windows.Forms.TextBox()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Cost = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.dailysubsc = New System.Windows.Forms.ComboBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.bydaily = New System.Windows.Forms.RadioButton()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Subscription_ID = New System.Windows.Forms.ComboBox()
+        Me.bysubsc = New System.Windows.Forms.RadioButton()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.coach = New System.Windows.Forms.ComboBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.EmpBarcode = New System.Windows.Forms.TextBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.custcode = New System.Windows.Forms.ComboBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.custname = New System.Windows.Forms.TextBox()
+        Me.SearchBox = New System.Windows.Forms.TextBox()
+        Me.PanelSearch = New System.Windows.Forms.Panel()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.GrdSearchDetails = New System.Windows.Forms.DataGridView()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.GrdSearch = New System.Windows.Forms.DataGridView()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.BtnEmp = New System.Windows.Forms.ToolStripButton()
         Me.BtnStock = New System.Windows.Forms.ToolStripButton()
@@ -210,6 +210,7 @@ Partial Class Form1
         Me.PanelSettings.SuspendLayout
         Me.PanelSecurity.SuspendLayout
         Me.PanelEmployees.SuspendLayout
+        Me.Panel9.SuspendLayout
         Me.Panel1.SuspendLayout
         Me.Panel20.SuspendLayout
         Me.Panel4.SuspendLayout
@@ -237,7 +238,6 @@ Partial Class Form1
         CType(Me.GrdSearchDetails,System.ComponentModel.ISupportInitialize).BeginInit
         Me.GroupBox2.SuspendLayout
         CType(Me.GrdSearch,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel9.SuspendLayout
         Me.ToolStrip1.SuspendLayout
         Me.SuspendLayout
         '
@@ -264,6 +264,29 @@ Partial Class Form1
         Me.PanelSettings.Size = New System.Drawing.Size(297, 838)
         Me.PanelSettings.TabIndex = 51
         Me.PanelSettings.Visible = false
+        '
+        'BtnLocations
+        '
+        Me.BtnLocations.BackgroundImage = CType(resources.GetObject("BtnLocations.BackgroundImage"),System.Drawing.Image)
+        Me.BtnLocations.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnLocations.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnLocations.FlatAppearance.BorderSize = 0
+        Me.BtnLocations.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnLocations.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnLocations.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnLocations.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnLocations.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnLocations.ImageKey = "(none)"
+        Me.BtnLocations.ImageList = Me.ButtonsImages
+        Me.BtnLocations.Location = New System.Drawing.Point(0, 383)
+        Me.BtnLocations.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnLocations.Name = "BtnLocations"
+        Me.BtnLocations.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnLocations.Size = New System.Drawing.Size(297, 38)
+        Me.BtnLocations.TabIndex = 38
+        Me.BtnLocations.Text = "الأحياء"
+        Me.BtnLocations.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnLocations.UseVisualStyleBackColor = true
         '
         'ButtonsImages
         '
@@ -392,6 +415,230 @@ Partial Class Form1
         Me.ButtonsImages.Images.SetKeyName(120, "application-pgp-signature.png")
         Me.ButtonsImages.Images.SetKeyName(121, "up-icon.png")
         '
+        'BtnRegions
+        '
+        Me.BtnRegions.BackgroundImage = CType(resources.GetObject("BtnRegions.BackgroundImage"),System.Drawing.Image)
+        Me.BtnRegions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnRegions.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnRegions.FlatAppearance.BorderSize = 0
+        Me.BtnRegions.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnRegions.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnRegions.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnRegions.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnRegions.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnRegions.ImageKey = "(none)"
+        Me.BtnRegions.ImageList = Me.ButtonsImages
+        Me.BtnRegions.Location = New System.Drawing.Point(0, 345)
+        Me.BtnRegions.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnRegions.Name = "BtnRegions"
+        Me.BtnRegions.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnRegions.Size = New System.Drawing.Size(297, 38)
+        Me.BtnRegions.TabIndex = 37
+        Me.BtnRegions.Text = "المناطق"
+        Me.BtnRegions.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnRegions.UseVisualStyleBackColor = true
+        '
+        'BtnCities
+        '
+        Me.BtnCities.BackgroundImage = CType(resources.GetObject("BtnCities.BackgroundImage"),System.Drawing.Image)
+        Me.BtnCities.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnCities.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnCities.FlatAppearance.BorderSize = 0
+        Me.BtnCities.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnCities.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnCities.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCities.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnCities.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnCities.ImageKey = "(none)"
+        Me.BtnCities.ImageList = Me.ButtonsImages
+        Me.BtnCities.Location = New System.Drawing.Point(0, 307)
+        Me.BtnCities.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnCities.Name = "BtnCities"
+        Me.BtnCities.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnCities.Size = New System.Drawing.Size(297, 38)
+        Me.BtnCities.TabIndex = 36
+        Me.BtnCities.Text = "المدن"
+        Me.BtnCities.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnCities.UseVisualStyleBackColor = true
+        '
+        'BtnCountries
+        '
+        Me.BtnCountries.BackgroundImage = CType(resources.GetObject("BtnCountries.BackgroundImage"),System.Drawing.Image)
+        Me.BtnCountries.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnCountries.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnCountries.FlatAppearance.BorderSize = 0
+        Me.BtnCountries.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnCountries.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnCountries.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCountries.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnCountries.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnCountries.ImageKey = "(none)"
+        Me.BtnCountries.ImageList = Me.ButtonsImages
+        Me.BtnCountries.Location = New System.Drawing.Point(0, 269)
+        Me.BtnCountries.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnCountries.Name = "BtnCountries"
+        Me.BtnCountries.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnCountries.Size = New System.Drawing.Size(297, 38)
+        Me.BtnCountries.TabIndex = 35
+        Me.BtnCountries.Text = "الدول"
+        Me.BtnCountries.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnCountries.UseVisualStyleBackColor = true
+        '
+        'BtnSetDefault
+        '
+        Me.BtnSetDefault.BackgroundImage = CType(resources.GetObject("BtnSetDefault.BackgroundImage"),System.Drawing.Image)
+        Me.BtnSetDefault.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnSetDefault.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnSetDefault.FlatAppearance.BorderSize = 0
+        Me.BtnSetDefault.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnSetDefault.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnSetDefault.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnSetDefault.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnSetDefault.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnSetDefault.ImageKey = "default-applications-capplet.png"
+        Me.BtnSetDefault.ImageList = Me.ButtonsImages
+        Me.BtnSetDefault.Location = New System.Drawing.Point(0, 231)
+        Me.BtnSetDefault.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnSetDefault.Name = "BtnSetDefault"
+        Me.BtnSetDefault.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnSetDefault.Size = New System.Drawing.Size(297, 38)
+        Me.BtnSetDefault.TabIndex = 29
+        Me.BtnSetDefault.Text = "الوضع الإفتراضى"
+        Me.BtnSetDefault.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnSetDefault.UseVisualStyleBackColor = true
+        '
+        'BtnSystemCommands
+        '
+        Me.BtnSystemCommands.BackgroundImage = CType(resources.GetObject("BtnSystemCommands.BackgroundImage"),System.Drawing.Image)
+        Me.BtnSystemCommands.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnSystemCommands.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnSystemCommands.FlatAppearance.BorderSize = 0
+        Me.BtnSystemCommands.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnSystemCommands.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnSystemCommands.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnSystemCommands.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnSystemCommands.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnSystemCommands.ImageKey = "order-history.png"
+        Me.BtnSystemCommands.ImageList = Me.ButtonsImages
+        Me.BtnSystemCommands.Location = New System.Drawing.Point(0, 193)
+        Me.BtnSystemCommands.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnSystemCommands.Name = "BtnSystemCommands"
+        Me.BtnSystemCommands.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnSystemCommands.Size = New System.Drawing.Size(297, 38)
+        Me.BtnSystemCommands.TabIndex = 30
+        Me.BtnSystemCommands.Text = "اوامر النظام"
+        Me.BtnSystemCommands.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnSystemCommands.UseVisualStyleBackColor = true
+        '
+        'BtnChatServer
+        '
+        Me.BtnChatServer.BackgroundImage = CType(resources.GetObject("BtnChatServer.BackgroundImage"),System.Drawing.Image)
+        Me.BtnChatServer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnChatServer.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnChatServer.FlatAppearance.BorderSize = 0
+        Me.BtnChatServer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnChatServer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnChatServer.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnChatServer.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnChatServer.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnChatServer.ImageKey = "Balloon Without Logo.png"
+        Me.BtnChatServer.ImageList = Me.ButtonsImages
+        Me.BtnChatServer.Location = New System.Drawing.Point(0, 155)
+        Me.BtnChatServer.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnChatServer.Name = "BtnChatServer"
+        Me.BtnChatServer.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnChatServer.Size = New System.Drawing.Size(297, 38)
+        Me.BtnChatServer.TabIndex = 31
+        Me.BtnChatServer.Text = "تشغيل سيرفر الشات"
+        Me.BtnChatServer.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnChatServer.UseVisualStyleBackColor = true
+        '
+        'BtnChatClient
+        '
+        Me.BtnChatClient.BackgroundImage = CType(resources.GetObject("BtnChatClient.BackgroundImage"),System.Drawing.Image)
+        Me.BtnChatClient.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnChatClient.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnChatClient.FlatAppearance.BorderSize = 0
+        Me.BtnChatClient.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnChatClient.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnChatClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnChatClient.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnChatClient.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnChatClient.ImageKey = "amsn.png"
+        Me.BtnChatClient.ImageList = Me.ButtonsImages
+        Me.BtnChatClient.Location = New System.Drawing.Point(0, 117)
+        Me.BtnChatClient.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnChatClient.Name = "BtnChatClient"
+        Me.BtnChatClient.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnChatClient.Size = New System.Drawing.Size(297, 38)
+        Me.BtnChatClient.TabIndex = 32
+        Me.BtnChatClient.Text = "الدخول للشات"
+        Me.BtnChatClient.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnChatClient.UseVisualStyleBackColor = true
+        '
+        'BtnShiftsDetails
+        '
+        Me.BtnShiftsDetails.BackgroundImage = CType(resources.GetObject("BtnShiftsDetails.BackgroundImage"),System.Drawing.Image)
+        Me.BtnShiftsDetails.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnShiftsDetails.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnShiftsDetails.FlatAppearance.BorderSize = 0
+        Me.BtnShiftsDetails.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnShiftsDetails.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnShiftsDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnShiftsDetails.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnShiftsDetails.Location = New System.Drawing.Point(0, 79)
+        Me.BtnShiftsDetails.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnShiftsDetails.Name = "BtnShiftsDetails"
+        Me.BtnShiftsDetails.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnShiftsDetails.Size = New System.Drawing.Size(297, 38)
+        Me.BtnShiftsDetails.TabIndex = 33
+        Me.BtnShiftsDetails.Text = "تفاصيل الورديه "
+        Me.BtnShiftsDetails.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnShiftsDetails.UseVisualStyleBackColor = true
+        '
+        'BtnShifts
+        '
+        Me.BtnShifts.BackgroundImage = CType(resources.GetObject("BtnShifts.BackgroundImage"),System.Drawing.Image)
+        Me.BtnShifts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnShifts.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnShifts.FlatAppearance.BorderSize = 0
+        Me.BtnShifts.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnShifts.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnShifts.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnShifts.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnShifts.Location = New System.Drawing.Point(0, 41)
+        Me.BtnShifts.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnShifts.Name = "BtnShifts"
+        Me.BtnShifts.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnShifts.Size = New System.Drawing.Size(297, 38)
+        Me.BtnShifts.TabIndex = 21
+        Me.BtnShifts.Text = "نوع الورديه"
+        Me.BtnShifts.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnShifts.UseVisualStyleBackColor = true
+        '
+        'BtnSettings
+        '
+        Me.BtnSettings.BackgroundImage = CType(resources.GetObject("BtnSettings.BackgroundImage"),System.Drawing.Image)
+        Me.BtnSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnSettings.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnSettings.FlatAppearance.BorderSize = 0
+        Me.BtnSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnSettings.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnSettings.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnSettings.ImageKey = "System_Preferences.png"
+        Me.BtnSettings.ImageList = Me.ButtonsImages
+        Me.BtnSettings.Location = New System.Drawing.Point(0, 0)
+        Me.BtnSettings.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnSettings.Name = "BtnSettings"
+        Me.BtnSettings.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnSettings.Size = New System.Drawing.Size(297, 41)
+        Me.BtnSettings.TabIndex = 27
+        Me.BtnSettings.Text = "إعدادات البرنامج"
+        Me.BtnSettings.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnSettings.UseVisualStyleBackColor = true
+        '
         'PanelSecurity
         '
         Me.PanelSecurity.BackColor = System.Drawing.Color.Transparent
@@ -407,6 +654,75 @@ Partial Class Form1
         Me.PanelSecurity.Size = New System.Drawing.Size(297, 838)
         Me.PanelSecurity.TabIndex = 50
         Me.PanelSecurity.Visible = false
+        '
+        'BtnApp_Users
+        '
+        Me.BtnApp_Users.BackgroundImage = CType(resources.GetObject("BtnApp_Users.BackgroundImage"),System.Drawing.Image)
+        Me.BtnApp_Users.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnApp_Users.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnApp_Users.FlatAppearance.BorderSize = 0
+        Me.BtnApp_Users.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnApp_Users.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnApp_Users.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnApp_Users.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnApp_Users.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnApp_Users.ImageKey = "package_games_rpg.png"
+        Me.BtnApp_Users.ImageList = Me.ButtonsImages
+        Me.BtnApp_Users.Location = New System.Drawing.Point(0, 79)
+        Me.BtnApp_Users.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnApp_Users.Name = "BtnApp_Users"
+        Me.BtnApp_Users.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnApp_Users.Size = New System.Drawing.Size(297, 38)
+        Me.BtnApp_Users.TabIndex = 29
+        Me.BtnApp_Users.Text = "بيانات المستخدميين"
+        Me.BtnApp_Users.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnApp_Users.UseVisualStyleBackColor = true
+        '
+        'BtnSecurityGroupDetails
+        '
+        Me.BtnSecurityGroupDetails.BackgroundImage = CType(resources.GetObject("BtnSecurityGroupDetails.BackgroundImage"),System.Drawing.Image)
+        Me.BtnSecurityGroupDetails.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnSecurityGroupDetails.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnSecurityGroupDetails.FlatAppearance.BorderSize = 0
+        Me.BtnSecurityGroupDetails.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnSecurityGroupDetails.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnSecurityGroupDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnSecurityGroupDetails.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnSecurityGroupDetails.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnSecurityGroupDetails.ImageKey = "Login Manager2.png"
+        Me.BtnSecurityGroupDetails.ImageList = Me.ButtonsImages
+        Me.BtnSecurityGroupDetails.Location = New System.Drawing.Point(0, 41)
+        Me.BtnSecurityGroupDetails.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnSecurityGroupDetails.Name = "BtnSecurityGroupDetails"
+        Me.BtnSecurityGroupDetails.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnSecurityGroupDetails.Size = New System.Drawing.Size(297, 38)
+        Me.BtnSecurityGroupDetails.TabIndex = 21
+        Me.BtnSecurityGroupDetails.Text = "صلاحيات مجموعه الآمان"
+        Me.BtnSecurityGroupDetails.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnSecurityGroupDetails.UseVisualStyleBackColor = true
+        '
+        'BtnSecurityGroupHeader
+        '
+        Me.BtnSecurityGroupHeader.BackgroundImage = CType(resources.GetObject("BtnSecurityGroupHeader.BackgroundImage"),System.Drawing.Image)
+        Me.BtnSecurityGroupHeader.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnSecurityGroupHeader.Dock = System.Windows.Forms.DockStyle.Top
+        Me.BtnSecurityGroupHeader.FlatAppearance.BorderSize = 0
+        Me.BtnSecurityGroupHeader.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnSecurityGroupHeader.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnSecurityGroupHeader.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnSecurityGroupHeader.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnSecurityGroupHeader.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.BtnSecurityGroupHeader.ImageKey = "application-pgp-signature.png"
+        Me.BtnSecurityGroupHeader.ImageList = Me.ButtonsImages
+        Me.BtnSecurityGroupHeader.Location = New System.Drawing.Point(0, 0)
+        Me.BtnSecurityGroupHeader.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnSecurityGroupHeader.Name = "BtnSecurityGroupHeader"
+        Me.BtnSecurityGroupHeader.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BtnSecurityGroupHeader.Size = New System.Drawing.Size(297, 41)
+        Me.BtnSecurityGroupHeader.TabIndex = 27
+        Me.BtnSecurityGroupHeader.Text = "مجموعه الآمان"
+        Me.BtnSecurityGroupHeader.TextAlign = System.Drawing.ContentAlignment.TopRight
+        Me.BtnSecurityGroupHeader.UseVisualStyleBackColor = true
         '
         'PanelEmployees
         '
@@ -436,789 +752,6 @@ Partial Class Form1
         Me.PanelEmployees.Size = New System.Drawing.Size(297, 838)
         Me.PanelEmployees.TabIndex = 48
         Me.PanelEmployees.Visible = false
-        '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.Button4)
-        Me.Panel1.Controls.Add(Me.Button5)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel1.Location = New System.Drawing.Point(0, 467)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(297, 74)
-        Me.Panel1.TabIndex = 40
-        Me.Panel1.Visible = false
-        '
-        'Panel20
-        '
-        Me.Panel20.Controls.Add(Me.BtnEmployeesDiscounts)
-        Me.Panel20.Controls.Add(Me.BtnDiscountCatergories)
-        Me.Panel20.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel20.Location = New System.Drawing.Point(0, 361)
-        Me.Panel20.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(297, 74)
-        Me.Panel20.TabIndex = 39
-        Me.Panel20.Visible = false
-        '
-        'Panel4
-        '
-        Me.Panel4.Controls.Add(Me.BtnEmpRewards)
-        Me.Panel4.Controls.Add(Me.BtnRewardsCategories)
-        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel4.Location = New System.Drawing.Point(0, 258)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(297, 71)
-        Me.Panel4.TabIndex = 35
-        Me.Panel4.Visible = false
-        '
-        'PanelReports
-        '
-        Me.PanelReports.AutoScroll = true
-        Me.PanelReports.BackColor = System.Drawing.Color.Transparent
-        Me.PanelReports.Controls.Add(Me.BtnPrintEmpCards)
-        Me.PanelReports.Controls.Add(Me.BtnPrintBarcode)
-        Me.PanelReports.Controls.Add(Me.BtnBackCard)
-        Me.PanelReports.Controls.Add(Me.btnreportEmployees)
-        Me.PanelReports.Controls.Add(Me.Panel8)
-        Me.PanelReports.Controls.Add(Me.Button2)
-        Me.PanelReports.Controls.Add(Me.BtnGymReports)
-        Me.PanelReports.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PanelReports.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.PanelReports.ForeColor = System.Drawing.Color.White
-        Me.PanelReports.Location = New System.Drawing.Point(23, 0)
-        Me.PanelReports.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.PanelReports.Name = "PanelReports"
-        Me.PanelReports.Size = New System.Drawing.Size(297, 838)
-        Me.PanelReports.TabIndex = 33
-        Me.PanelReports.Visible = false
-        '
-        'Panel8
-        '
-        Me.Panel8.Controls.Add(Me.BtnRptAccountsBalance)
-        Me.Panel8.Controls.Add(Me.BtnAnyAccount)
-        Me.Panel8.Controls.Add(Me.BtnReportItemExpiration)
-        Me.Panel8.Controls.Add(Me.BtnStockDetails)
-        Me.Panel8.Controls.Add(Me.BtnGeneralBalance)
-        Me.Panel8.Controls.Add(Me.BtnRptItemsUm)
-        Me.Panel8.Controls.Add(Me.BtnRptStockValue)
-        Me.Panel8.Controls.Add(Me.BtnRptUserLog)
-        Me.Panel8.Controls.Add(Me.BtnRptInvLog)
-        Me.Panel8.Controls.Add(Me.BtnRptDepItems)
-        Me.Panel8.Controls.Add(Me.BtnRptBarcode)
-        Me.Panel8.Controls.Add(Me.BtnRptSalesOrder)
-        Me.Panel8.Controls.Add(Me.BtnRptCustomersReturns)
-        Me.Panel8.Controls.Add(Me.BtnRptVendorReturns)
-        Me.Panel8.Controls.Add(Me.BtnRptPurchaseOrder)
-        Me.Panel8.Controls.Add(Me.BtnRptAdjustments)
-        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel8.Location = New System.Drawing.Point(0, 78)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(276, 625)
-        Me.Panel8.TabIndex = 0
-        Me.Panel8.Visible = false
-        '
-        'Panel5
-        '
-        Me.Panel5.BackColor = System.Drawing.Color.Transparent
-        Me.Panel5.Controls.Add(Me.PanelEmployees)
-        Me.Panel5.Controls.Add(Me.PanelReports)
-        Me.Panel5.Controls.Add(Me.PanelAccounting)
-        Me.Panel5.Controls.Add(Me.PanelStatistics)
-        Me.Panel5.Controls.Add(Me.PanelCustomer)
-        Me.Panel5.Controls.Add(Me.PanelStock)
-        Me.Panel5.Controls.Add(Me.PanelSecurity)
-        Me.Panel5.Controls.Add(Me.PanelVendor)
-        Me.Panel5.Controls.Add(Me.PanelSettings)
-        Me.Panel5.Controls.Add(Me.BtnActivatePanel)
-        Me.Panel5.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel5.Location = New System.Drawing.Point(1178, 75)
-        Me.Panel5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Panel5.Size = New System.Drawing.Size(320, 838)
-        Me.Panel5.TabIndex = 93
-        '
-        'PanelAccounting
-        '
-        Me.PanelAccounting.AutoScroll = true
-        Me.PanelAccounting.BackColor = System.Drawing.Color.Transparent
-        Me.PanelAccounting.Controls.Add(Me.RptIncome)
-        Me.PanelAccounting.Controls.Add(Me.BtnPaySalary)
-        Me.PanelAccounting.Controls.Add(Me.BtnPayAllSalaries)
-        Me.PanelAccounting.Controls.Add(Me.MenuEmpAccounts)
-        Me.PanelAccounting.Controls.Add(Me.MenuDepPro)
-        Me.PanelAccounting.Controls.Add(Me.MenuBalanceSheet)
-        Me.PanelAccounting.Controls.Add(Me.MenuBalanceBook)
-        Me.PanelAccounting.Controls.Add(Me.MenuMasterRecord)
-        Me.PanelAccounting.Controls.Add(Me.Panel19)
-        Me.PanelAccounting.Controls.Add(Me.Button18)
-        Me.PanelAccounting.Controls.Add(Me.Panel18)
-        Me.PanelAccounting.Controls.Add(Me.Banks)
-        Me.PanelAccounting.Controls.Add(Me.Panel17)
-        Me.PanelAccounting.Controls.Add(Me.Cheques)
-        Me.PanelAccounting.Controls.Add(Me.Panel16)
-        Me.PanelAccounting.Controls.Add(Me.constraint)
-        Me.PanelAccounting.Controls.Add(Me.MenuDailyProNames)
-        Me.PanelAccounting.Controls.Add(Me.MenuIncomeDetailsByPeriod)
-        Me.PanelAccounting.Controls.Add(Me.Panel10)
-        Me.PanelAccounting.Controls.Add(Me.MenuExpenses)
-        Me.PanelAccounting.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PanelAccounting.ForeColor = System.Drawing.Color.White
-        Me.PanelAccounting.Location = New System.Drawing.Point(23, 0)
-        Me.PanelAccounting.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.PanelAccounting.Name = "PanelAccounting"
-        Me.PanelAccounting.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.PanelAccounting.Size = New System.Drawing.Size(297, 838)
-        Me.PanelAccounting.TabIndex = 97
-        Me.PanelAccounting.Visible = false
-        '
-        'Panel19
-        '
-        Me.Panel19.Controls.Add(Me.MenuMoneyReceivable)
-        Me.Panel19.Controls.Add(Me.MenuMoneyPayments)
-        Me.Panel19.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel19.Location = New System.Drawing.Point(0, 572)
-        Me.Panel19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(276, 70)
-        Me.Panel19.TabIndex = 58
-        Me.Panel19.Visible = false
-        '
-        'Panel18
-        '
-        Me.Panel18.Controls.Add(Me.MenuBanks)
-        Me.Panel18.Controls.Add(Me.MenuBanksAccounts)
-        Me.Panel18.Controls.Add(Me.BtnVisa)
-        Me.Panel18.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel18.Location = New System.Drawing.Point(0, 432)
-        Me.Panel18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(276, 106)
-        Me.Panel18.TabIndex = 56
-        Me.Panel18.Visible = false
-        '
-        'Panel17
-        '
-        Me.Panel17.Controls.Add(Me.MenuCheques)
-        Me.Panel17.Controls.Add(Me.MenuChequeStatus)
-        Me.Panel17.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel17.Location = New System.Drawing.Point(0, 329)
-        Me.Panel17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(276, 69)
-        Me.Panel17.TabIndex = 54
-        Me.Panel17.Visible = false
-        '
-        'Panel16
-        '
-        Me.Panel16.Controls.Add(Me.MenuDailyProcedures)
-        Me.Panel16.Controls.Add(Me.MenuNewProcedureTran)
-        Me.Panel16.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel16.Location = New System.Drawing.Point(0, 226)
-        Me.Panel16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(276, 66)
-        Me.Panel16.TabIndex = 52
-        Me.Panel16.Visible = false
-        '
-        'Panel10
-        '
-        Me.Panel10.Controls.Add(Me.MenuExpensesOther)
-        Me.Panel10.Controls.Add(Me.MenuExpensesHeader)
-        Me.Panel10.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel10.Location = New System.Drawing.Point(0, 38)
-        Me.Panel10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(276, 68)
-        Me.Panel10.TabIndex = 48
-        Me.Panel10.Visible = false
-        '
-        'PanelStatistics
-        '
-        Me.PanelStatistics.BackColor = System.Drawing.Color.Transparent
-        Me.PanelStatistics.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PanelStatistics.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.PanelStatistics.ForeColor = System.Drawing.Color.White
-        Me.PanelStatistics.Location = New System.Drawing.Point(23, 0)
-        Me.PanelStatistics.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.PanelStatistics.Name = "PanelStatistics"
-        Me.PanelStatistics.Size = New System.Drawing.Size(297, 838)
-        Me.PanelStatistics.TabIndex = 98
-        Me.PanelStatistics.Visible = false
-        '
-        'PanelCustomer
-        '
-        Me.PanelCustomer.BackColor = System.Drawing.Color.Transparent
-        Me.PanelCustomer.Controls.Add(Me.BntSubscReturn)
-        Me.PanelCustomer.Controls.Add(Me.BtnCompanies)
-        Me.PanelCustomer.Controls.Add(Me.BtnCustOrderEvaluation)
-        Me.PanelCustomer.Controls.Add(Me.BtnCustEvaluation)
-        Me.PanelCustomer.Controls.Add(Me.BtnEvaluationCategory)
-        Me.PanelCustomer.Controls.Add(Me.BtnSpecialSub)
-        Me.PanelCustomer.Controls.Add(Me.BtnSpecialSubCa)
-        Me.PanelCustomer.Controls.Add(Me.BtnCustomersAttendance)
-        Me.PanelCustomer.Controls.Add(Me.BtnSubDaily)
-        Me.PanelCustomer.Controls.Add(Me.BtnCustomerSubscription)
-        Me.PanelCustomer.Controls.Add(Me.BtnSubscriptions)
-        Me.PanelCustomer.Controls.Add(Me.BtnSubscripionsCategories)
-        Me.PanelCustomer.Controls.Add(Me.BtnCustomerReturns)
-        Me.PanelCustomer.Controls.Add(Me.BtnSalesOrder)
-        Me.PanelCustomer.Controls.Add(Me.BtnCustomers)
-        Me.PanelCustomer.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PanelCustomer.ForeColor = System.Drawing.Color.White
-        Me.PanelCustomer.Location = New System.Drawing.Point(23, 0)
-        Me.PanelCustomer.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.PanelCustomer.Name = "PanelCustomer"
-        Me.PanelCustomer.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.PanelCustomer.Size = New System.Drawing.Size(297, 838)
-        Me.PanelCustomer.TabIndex = 95
-        Me.PanelCustomer.Visible = false
-        '
-        'PanelStock
-        '
-        Me.PanelStock.BackColor = System.Drawing.Color.Transparent
-        Me.PanelStock.Controls.Add(Me.BtnAdjustments)
-        Me.PanelStock.Controls.Add(Me.BtnCheckDetails)
-        Me.PanelStock.Controls.Add(Me.BtnCheckHeader)
-        Me.PanelStock.Controls.Add(Me.BtnItemsOut)
-        Me.PanelStock.Controls.Add(Me.BtnStocks)
-        Me.PanelStock.Controls.Add(Me.BtnCategories)
-        Me.PanelStock.Controls.Add(Me.BtnItemsStocks)
-        Me.PanelStock.Controls.Add(Me.BtnUmDetails)
-        Me.PanelStock.Controls.Add(Me.BtnUmMaster)
-        Me.PanelStock.Controls.Add(Me.BtnCorporations)
-        Me.PanelStock.Controls.Add(Me.BtnItems)
-        Me.PanelStock.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PanelStock.ForeColor = System.Drawing.Color.White
-        Me.PanelStock.Location = New System.Drawing.Point(23, 0)
-        Me.PanelStock.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.PanelStock.Name = "PanelStock"
-        Me.PanelStock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.PanelStock.Size = New System.Drawing.Size(297, 838)
-        Me.PanelStock.TabIndex = 95
-        Me.PanelStock.Visible = false
-        '
-        'PanelVendor
-        '
-        Me.PanelVendor.BackColor = System.Drawing.Color.Transparent
-        Me.PanelVendor.Controls.Add(Me.BtnVendorReturns)
-        Me.PanelVendor.Controls.Add(Me.BtnPurchaseBill)
-        Me.PanelVendor.Controls.Add(Me.BtnItemsVendor)
-        Me.PanelVendor.Controls.Add(Me.BtnVendors)
-        Me.PanelVendor.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PanelVendor.ForeColor = System.Drawing.Color.White
-        Me.PanelVendor.Location = New System.Drawing.Point(23, 0)
-        Me.PanelVendor.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.PanelVendor.Name = "PanelVendor"
-        Me.PanelVendor.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.PanelVendor.Size = New System.Drawing.Size(297, 838)
-        Me.PanelVendor.TabIndex = 95
-        Me.PanelVendor.Visible = false
-        '
-        'BtnActivatePanel
-        '
-        Me.BtnActivatePanel.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.BtnActivatePanel.Dock = System.Windows.Forms.DockStyle.Left
-        Me.BtnActivatePanel.Location = New System.Drawing.Point(0, 0)
-        Me.BtnActivatePanel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnActivatePanel.Name = "BtnActivatePanel"
-        Me.BtnActivatePanel.Size = New System.Drawing.Size(23, 838)
-        Me.BtnActivatePanel.TabIndex = 48
-        Me.BtnActivatePanel.Text = "<>"
-        Me.BtnActivatePanel.UseVisualStyleBackColor = false
-        '
-        'Panel2
-        '
-        Me.Panel2.AutoScroll = true
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192,Byte),Integer), CType(CType(192,Byte),Integer), CType(CType(255,Byte),Integer))
-        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel2.Controls.Add(Me.Panel7)
-        Me.Panel2.Controls.Add(Me.Panel6)
-        Me.Panel2.Controls.Add(Me.bydaily)
-        Me.Panel2.Controls.Add(Me.Panel3)
-        Me.Panel2.Controls.Add(Me.bysubsc)
-        Me.Panel2.Controls.Add(Me.GroupBox5)
-        Me.Panel2.Controls.Add(Me.Button6)
-        Me.Panel2.Controls.Add(Me.GroupBox1)
-        Me.Panel2.Controls.Add(Me.GroupBox4)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel2.Location = New System.Drawing.Point(0, 75)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(252, 838)
-        Me.Panel2.TabIndex = 95
-        Me.Panel2.Tag = "Shown"
-        '
-        'Panel7
-        '
-        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel7.Controls.Add(Me.btnReceiv)
-        Me.Panel7.Controls.Add(Me.Label9)
-        Me.Panel7.Controls.Add(Me.Label6)
-        Me.Panel7.Controls.Add(Me.CustBalance)
-        Me.Panel7.Controls.Add(Me.CustAttendance)
-        Me.Panel7.Location = New System.Drawing.Point(8, 230)
-        Me.Panel7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(233, 126)
-        Me.Panel7.TabIndex = 143
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = true
-        Me.Label9.Location = New System.Drawing.Point(78, 11)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(79, 17)
-        Me.Label9.TabIndex = 4
-        Me.Label9.Text = "رصيد العميل"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = true
-        Me.Label6.Location = New System.Drawing.Point(66, 65)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(105, 17)
-        Me.Label6.TabIndex = 4
-        Me.Label6.Text = "عدد مرات الحضور"
-        '
-        'CustBalance
-        '
-        Me.CustBalance.BackColor = System.Drawing.SystemColors.Info
-        Me.CustBalance.Enabled = false
-        Me.CustBalance.Location = New System.Drawing.Point(8, 34)
-        Me.CustBalance.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.CustBalance.Name = "CustBalance"
-        Me.CustBalance.Size = New System.Drawing.Size(214, 24)
-        Me.CustBalance.TabIndex = 5
-        Me.CustBalance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'CustAttendance
-        '
-        Me.CustAttendance.BackColor = System.Drawing.SystemColors.Info
-        Me.CustAttendance.Enabled = false
-        Me.CustAttendance.Location = New System.Drawing.Point(8, 86)
-        Me.CustAttendance.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.CustAttendance.Name = "CustAttendance"
-        Me.CustAttendance.Size = New System.Drawing.Size(214, 24)
-        Me.CustAttendance.TabIndex = 4
-        Me.CustAttendance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Panel6
-        '
-        Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel6.Controls.Add(Me.Cost)
-        Me.Panel6.Controls.Add(Me.Label8)
-        Me.Panel6.Controls.Add(Me.dailysubsc)
-        Me.Panel6.Controls.Add(Me.Label7)
-        Me.Panel6.Location = New System.Drawing.Point(7, 534)
-        Me.Panel6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(233, 150)
-        Me.Panel6.TabIndex = 142
-        '
-        'Cost
-        '
-        Me.Cost.BackColor = System.Drawing.SystemColors.Info
-        Me.Cost.Enabled = false
-        Me.Cost.Location = New System.Drawing.Point(7, 107)
-        Me.Cost.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Cost.Name = "Cost"
-        Me.Cost.Size = New System.Drawing.Size(214, 24)
-        Me.Cost.TabIndex = 4
-        Me.Cost.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = true
-        Me.Label8.Location = New System.Drawing.Point(94, 82)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(43, 17)
-        Me.Label8.TabIndex = 139
-        Me.Label8.Text = "السعر"
-        '
-        'dailysubsc
-        '
-        Me.dailysubsc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.dailysubsc.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.dailysubsc.FormattingEnabled = true
-        Me.dailysubsc.Location = New System.Drawing.Point(6, 41)
-        Me.dailysubsc.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.dailysubsc.Name = "dailysubsc"
-        Me.dailysubsc.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.dailysubsc.Size = New System.Drawing.Size(219, 31)
-        Me.dailysubsc.TabIndex = 135
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = true
-        Me.Label7.Location = New System.Drawing.Point(87, 15)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(58, 17)
-        Me.Label7.TabIndex = 5
-        Me.Label7.Text = "الاشتراك"
-        '
-        'bydaily
-        '
-        Me.bydaily.AutoSize = true
-        Me.bydaily.Location = New System.Drawing.Point(119, 503)
-        Me.bydaily.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.bydaily.Name = "bydaily"
-        Me.bydaily.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.bydaily.Size = New System.Drawing.Size(128, 21)
-        Me.bydaily.TabIndex = 139
-        Me.bydaily.Text = "الاشتراكات الوميه"
-        Me.bydaily.UseVisualStyleBackColor = true
-        '
-        'Panel3
-        '
-        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel3.Controls.Add(Me.Label4)
-        Me.Panel3.Controls.Add(Me.Subscription_ID)
-        Me.Panel3.Location = New System.Drawing.Point(7, 402)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(233, 93)
-        Me.Panel3.TabIndex = 141
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = true
-        Me.Label4.Location = New System.Drawing.Point(87, 15)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(58, 17)
-        Me.Label4.TabIndex = 5
-        Me.Label4.Text = "الاشتراك"
-        '
-        'Subscription_ID
-        '
-        Me.Subscription_ID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Subscription_ID.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.Subscription_ID.FormattingEnabled = true
-        Me.Subscription_ID.Location = New System.Drawing.Point(6, 47)
-        Me.Subscription_ID.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Subscription_ID.Name = "Subscription_ID"
-        Me.Subscription_ID.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Subscription_ID.Size = New System.Drawing.Size(219, 31)
-        Me.Subscription_ID.TabIndex = 135
-        '
-        'bysubsc
-        '
-        Me.bysubsc.AutoSize = true
-        Me.bysubsc.Checked = true
-        Me.bysubsc.Location = New System.Drawing.Point(33, 370)
-        Me.bysubsc.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.bysubsc.Name = "bysubsc"
-        Me.bysubsc.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.bysubsc.Size = New System.Drawing.Size(222, 21)
-        Me.bysubsc.TabIndex = 140
-        Me.bysubsc.TabStop = true
-        Me.bysubsc.Text = "حضور الاشتراكات الشهريه للعملاء"
-        Me.bysubsc.UseVisualStyleBackColor = true
-        '
-        'GroupBox5
-        '
-        Me.GroupBox5.Controls.Add(Me.coach)
-        Me.GroupBox5.Controls.Add(Me.Label5)
-        Me.GroupBox5.Location = New System.Drawing.Point(6, 695)
-        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GroupBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.GroupBox5.Size = New System.Drawing.Size(236, 91)
-        Me.GroupBox5.TabIndex = 136
-        Me.GroupBox5.TabStop = false
-        Me.GroupBox5.Text = "المدربين"
-        '
-        'coach
-        '
-        Me.coach.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
-        Me.coach.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.coach.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.coach.FormattingEnabled = true
-        Me.coach.Location = New System.Drawing.Point(6, 44)
-        Me.coach.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.coach.Name = "coach"
-        Me.coach.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.coach.Size = New System.Drawing.Size(219, 31)
-        Me.coach.TabIndex = 136
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = true
-        Me.Label5.Location = New System.Drawing.Point(93, 18)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(48, 17)
-        Me.Label5.TabIndex = 7
-        Me.Label5.Text = "المدرب"
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.EmpBarcode)
-        Me.GroupBox1.Location = New System.Drawing.Point(6, 5)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GroupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.GroupBox1.Size = New System.Drawing.Size(236, 86)
-        Me.GroupBox1.TabIndex = 1
-        Me.GroupBox1.TabStop = false
-        Me.GroupBox1.Text = "حضور و انصراف الموظفين"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = true
-        Me.Label1.Location = New System.Drawing.Point(80, 23)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(76, 17)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "كود الموظف"
-        '
-        'EmpBarcode
-        '
-        Me.EmpBarcode.Location = New System.Drawing.Point(8, 47)
-        Me.EmpBarcode.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.EmpBarcode.Name = "EmpBarcode"
-        Me.EmpBarcode.Size = New System.Drawing.Size(214, 24)
-        Me.EmpBarcode.TabIndex = 0
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.Controls.Add(Me.custcode)
-        Me.GroupBox4.Controls.Add(Me.Label2)
-        Me.GroupBox4.Controls.Add(Me.Label3)
-        Me.GroupBox4.Controls.Add(Me.custname)
-        Me.GroupBox4.Location = New System.Drawing.Point(6, 98)
-        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GroupBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.GroupBox4.Size = New System.Drawing.Size(236, 124)
-        Me.GroupBox4.TabIndex = 2
-        Me.GroupBox4.TabStop = false
-        Me.GroupBox4.Text = "العميل"
-        '
-        'custcode
-        '
-        Me.custcode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
-        Me.custcode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
-        Me.custcode.FormattingEnabled = true
-        Me.custcode.Location = New System.Drawing.Point(6, 37)
-        Me.custcode.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.custcode.Name = "custcode"
-        Me.custcode.Size = New System.Drawing.Size(216, 24)
-        Me.custcode.TabIndex = 28
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = true
-        Me.Label2.Location = New System.Drawing.Point(83, 15)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(70, 17)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "كود العميل"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = true
-        Me.Label3.Location = New System.Drawing.Point(79, 66)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(77, 17)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "اسم العميل"
-        '
-        'custname
-        '
-        Me.custname.BackColor = System.Drawing.SystemColors.Info
-        Me.custname.Enabled = false
-        Me.custname.Location = New System.Drawing.Point(8, 89)
-        Me.custname.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.custname.Name = "custname"
-        Me.custname.Size = New System.Drawing.Size(214, 24)
-        Me.custname.TabIndex = 2
-        Me.custname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'SearchBox
-        '
-        Me.SearchBox.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.SearchBox.Location = New System.Drawing.Point(70, 26)
-        Me.SearchBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.SearchBox.Name = "SearchBox"
-        Me.SearchBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.SearchBox.Size = New System.Drawing.Size(203, 24)
-        Me.SearchBox.TabIndex = 2
-        '
-        'PanelSearch
-        '
-        Me.PanelSearch.AutoScroll = true
-        Me.PanelSearch.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.PanelSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PanelSearch.Controls.Add(Me.Button7)
-        Me.PanelSearch.Controls.Add(Me.GroupBox3)
-        Me.PanelSearch.Controls.Add(Me.GroupBox2)
-        Me.PanelSearch.Dock = System.Windows.Forms.DockStyle.Left
-        Me.PanelSearch.Location = New System.Drawing.Point(252, 75)
-        Me.PanelSearch.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.PanelSearch.Name = "PanelSearch"
-        Me.PanelSearch.Size = New System.Drawing.Size(648, 838)
-        Me.PanelSearch.TabIndex = 143
-        Me.PanelSearch.Tag = "Shown"
-        Me.PanelSearch.Visible = false
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom)  _
-            Or System.Windows.Forms.AnchorStyles.Left)  _
-            Or System.Windows.Forms.AnchorStyles.Right),System.Windows.Forms.AnchorStyles)
-        Me.GroupBox3.BackColor = System.Drawing.Color.Transparent
-        Me.GroupBox3.Controls.Add(Me.GrdSearchDetails)
-        Me.GroupBox3.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.GroupBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.GroupBox3.Location = New System.Drawing.Point(7, 270)
-        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GroupBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.GroupBox3.Size = New System.Drawing.Size(529, 546)
-        Me.GroupBox3.TabIndex = 139
-        Me.GroupBox3.TabStop = false
-        Me.GroupBox3.Text = "تفاصيل البحث المحدد"
-        '
-        'GrdSearchDetails
-        '
-        Me.GrdSearchDetails.AllowUserToAddRows = false
-        Me.GrdSearchDetails.AllowUserToDeleteRows = false
-        Me.GrdSearchDetails.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.GrdSearchDetails.BackgroundColor = System.Drawing.Color.LightGoldenrodYellow
-        Me.GrdSearchDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.GrdSearchDetails.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GrdSearchDetails.Location = New System.Drawing.Point(3, 24)
-        Me.GrdSearchDetails.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GrdSearchDetails.Name = "GrdSearchDetails"
-        Me.GrdSearchDetails.ReadOnly = true
-        Me.GrdSearchDetails.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.GrdSearchDetails.RowHeadersVisible = false
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(192,Byte),Integer), CType(CType(192,Byte),Integer), CType(CType(255,Byte),Integer))
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black
-        Me.GrdSearchDetails.RowsDefaultCellStyle = DataGridViewCellStyle5
-        Me.GrdSearchDetails.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.GrdSearchDetails.Size = New System.Drawing.Size(523, 518)
-        Me.GrdSearchDetails.TabIndex = 28
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left)  _
-            Or System.Windows.Forms.AnchorStyles.Right),System.Windows.Forms.AnchorStyles)
-        Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
-        Me.GroupBox2.Controls.Add(Me.GrdSearch)
-        Me.GroupBox2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.GroupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.GroupBox2.Location = New System.Drawing.Point(7, 39)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GroupBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.GroupBox2.Size = New System.Drawing.Size(529, 230)
-        Me.GroupBox2.TabIndex = 140
-        Me.GroupBox2.TabStop = false
-        Me.GroupBox2.Text = "نتائج البحث"
-        '
-        'GrdSearch
-        '
-        Me.GrdSearch.AllowUserToAddRows = false
-        Me.GrdSearch.AllowUserToDeleteRows = false
-        Me.GrdSearch.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.GrdSearch.BackgroundColor = System.Drawing.Color.LightGoldenrodYellow
-        Me.GrdSearch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.GrdSearch.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GrdSearch.Location = New System.Drawing.Point(3, 24)
-        Me.GrdSearch.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GrdSearch.Name = "GrdSearch"
-        Me.GrdSearch.ReadOnly = true
-        Me.GrdSearch.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.GrdSearch.RowHeadersVisible = false
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(192,Byte),Integer), CType(CType(192,Byte),Integer), CType(CType(255,Byte),Integer))
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black
-        Me.GrdSearch.RowsDefaultCellStyle = DataGridViewCellStyle6
-        Me.GrdSearch.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.GrdSearch.Size = New System.Drawing.Size(523, 202)
-        Me.GrdSearch.TabIndex = 27
-        '
-        'Panel9
-        '
-        Me.Panel9.Controls.Add(Me.Button8)
-        Me.Panel9.Controls.Add(Me.Button9)
-        Me.Panel9.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel9.Location = New System.Drawing.Point(0, 573)
-        Me.Panel9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(297, 74)
-        Me.Panel9.TabIndex = 44
-        Me.Panel9.Visible = false
-        '
-        'Button7
-        '
-        Me.Button7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left)  _
-            Or System.Windows.Forms.AnchorStyles.Right),System.Windows.Forms.AnchorStyles)
-        Me.Button7.BackColor = System.Drawing.Color.Transparent
-        Me.Button7.BackgroundImage = Global.GYM.My.Resources.Resources.main_screen_4123
-        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button7.FlatAppearance.BorderSize = 0
-        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button7.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.Button7.ImageKey = "up-icon.png"
-        Me.Button7.ImageList = Me.ButtonsImages
-        Me.Button7.Location = New System.Drawing.Point(10, 5)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(522, 36)
-        Me.Button7.TabIndex = 141
-        Me.Button7.Text = "اخفاء"
-        Me.Button7.UseVisualStyleBackColor = false
-        '
-        'btnReceiv
-        '
-        Me.btnReceiv.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left)  _
-            Or System.Windows.Forms.AnchorStyles.Right),System.Windows.Forms.AnchorStyles)
-        Me.btnReceiv.BackColor = System.Drawing.Color.Transparent
-        Me.btnReceiv.BackgroundImage = Global.GYM.My.Resources.Resources.Back
-        Me.btnReceiv.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnReceiv.FlatAppearance.BorderSize = 0
-        Me.btnReceiv.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.btnReceiv.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.btnReceiv.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReceiv.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnReceiv.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.btnReceiv.ImageKey = "up-icon.png"
-        Me.btnReceiv.Location = New System.Drawing.Point(8, 2)
-        Me.btnReceiv.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.btnReceiv.Name = "btnReceiv"
-        Me.btnReceiv.Size = New System.Drawing.Size(28, 30)
-        Me.btnReceiv.TabIndex = 142
-        Me.btnReceiv.UseVisualStyleBackColor = false
-        '
-        'Button6
-        '
-        Me.Button6.BackgroundImage = Global.GYM.My.Resources.Resources.button_smallBlue_search
-        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(80, 796)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(87, 28)
-        Me.Button6.TabIndex = 137
-        Me.Button6.Text = "حفظ"
-        Me.Button6.UseVisualStyleBackColor = true
         '
         'BtnSalaryGroups
         '
@@ -1263,6 +796,18 @@ Partial Class Form1
         Me.BtnAttendanceLeave.Text = "تعديل وقت الانصراف للموظفين"
         Me.BtnAttendanceLeave.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.BtnAttendanceLeave.UseVisualStyleBackColor = false
+        '
+        'Panel9
+        '
+        Me.Panel9.Controls.Add(Me.Button8)
+        Me.Panel9.Controls.Add(Me.Button9)
+        Me.Panel9.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel9.Location = New System.Drawing.Point(0, 573)
+        Me.Panel9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(297, 74)
+        Me.Panel9.TabIndex = 44
+        Me.Panel9.Visible = false
         '
         'Button8
         '
@@ -1324,7 +869,18 @@ Partial Class Form1
         Me.Button10.Text = "السلف"
         Me.Button10.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.Button10.UseVisualStyleBackColor = false
-        Me.Button10.Visible = false
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.Button4)
+        Me.Panel1.Controls.Add(Me.Button5)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel1.Location = New System.Drawing.Point(0, 467)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(297, 74)
+        Me.Panel1.TabIndex = 40
+        Me.Panel1.Visible = false
         '
         'Button4
         '
@@ -1387,6 +943,18 @@ Partial Class Form1
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.Button3.UseVisualStyleBackColor = false
         '
+        'Panel20
+        '
+        Me.Panel20.Controls.Add(Me.BtnEmployeesDiscounts)
+        Me.Panel20.Controls.Add(Me.BtnDiscountCatergories)
+        Me.Panel20.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel20.Location = New System.Drawing.Point(0, 361)
+        Me.Panel20.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel20.Name = "Panel20"
+        Me.Panel20.Size = New System.Drawing.Size(297, 74)
+        Me.Panel20.TabIndex = 39
+        Me.Panel20.Visible = false
+        '
         'BtnEmployeesDiscounts
         '
         Me.BtnEmployeesDiscounts.BackColor = System.Drawing.Color.Transparent
@@ -1448,6 +1016,18 @@ Partial Class Form1
         Me.MenuDiscounts.Text = "الخصومات"
         Me.MenuDiscounts.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.MenuDiscounts.UseVisualStyleBackColor = false
+        '
+        'Panel4
+        '
+        Me.Panel4.Controls.Add(Me.BtnEmpRewards)
+        Me.Panel4.Controls.Add(Me.BtnRewardsCategories)
+        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel4.Location = New System.Drawing.Point(0, 258)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(297, 71)
+        Me.Panel4.TabIndex = 35
+        Me.Panel4.Visible = false
         '
         'BtnEmpRewards
         '
@@ -1655,6 +1235,27 @@ Partial Class Form1
         Me.BtnDepartments.TextAlign = System.Drawing.ContentAlignment.TopRight
         Me.BtnDepartments.UseVisualStyleBackColor = true
         '
+        'PanelReports
+        '
+        Me.PanelReports.AutoScroll = true
+        Me.PanelReports.BackColor = System.Drawing.Color.Transparent
+        Me.PanelReports.Controls.Add(Me.BtnPrintEmpCards)
+        Me.PanelReports.Controls.Add(Me.BtnPrintBarcode)
+        Me.PanelReports.Controls.Add(Me.BtnBackCard)
+        Me.PanelReports.Controls.Add(Me.btnreportEmployees)
+        Me.PanelReports.Controls.Add(Me.Panel8)
+        Me.PanelReports.Controls.Add(Me.Button2)
+        Me.PanelReports.Controls.Add(Me.BtnGymReports)
+        Me.PanelReports.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelReports.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.PanelReports.ForeColor = System.Drawing.Color.White
+        Me.PanelReports.Location = New System.Drawing.Point(23, 0)
+        Me.PanelReports.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.PanelReports.Name = "PanelReports"
+        Me.PanelReports.Size = New System.Drawing.Size(297, 838)
+        Me.PanelReports.TabIndex = 33
+        Me.PanelReports.Visible = false
+        '
         'BtnPrintEmpCards
         '
         Me.BtnPrintEmpCards.BackgroundImage = CType(resources.GetObject("BtnPrintEmpCards.BackgroundImage"),System.Drawing.Image)
@@ -1734,6 +1335,31 @@ Partial Class Form1
         Me.btnreportEmployees.Text = "تقارير الموظفين"
         Me.btnreportEmployees.TextAlign = System.Drawing.ContentAlignment.TopRight
         Me.btnreportEmployees.UseVisualStyleBackColor = true
+        '
+        'Panel8
+        '
+        Me.Panel8.Controls.Add(Me.BtnRptAccountsBalance)
+        Me.Panel8.Controls.Add(Me.BtnAnyAccount)
+        Me.Panel8.Controls.Add(Me.BtnReportItemExpiration)
+        Me.Panel8.Controls.Add(Me.BtnStockDetails)
+        Me.Panel8.Controls.Add(Me.BtnGeneralBalance)
+        Me.Panel8.Controls.Add(Me.BtnRptItemsUm)
+        Me.Panel8.Controls.Add(Me.BtnRptStockValue)
+        Me.Panel8.Controls.Add(Me.BtnRptUserLog)
+        Me.Panel8.Controls.Add(Me.BtnRptInvLog)
+        Me.Panel8.Controls.Add(Me.BtnRptDepItems)
+        Me.Panel8.Controls.Add(Me.BtnRptBarcode)
+        Me.Panel8.Controls.Add(Me.BtnRptSalesOrder)
+        Me.Panel8.Controls.Add(Me.BtnRptCustomersReturns)
+        Me.Panel8.Controls.Add(Me.BtnRptVendorReturns)
+        Me.Panel8.Controls.Add(Me.BtnRptPurchaseOrder)
+        Me.Panel8.Controls.Add(Me.BtnRptAdjustments)
+        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel8.Location = New System.Drawing.Point(0, 78)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(276, 625)
+        Me.Panel8.TabIndex = 0
+        Me.Panel8.Visible = false
         '
         'BtnRptAccountsBalance
         '
@@ -2096,6 +1722,61 @@ Partial Class Form1
         Me.BtnGymReports.TextAlign = System.Drawing.ContentAlignment.TopRight
         Me.BtnGymReports.UseVisualStyleBackColor = true
         '
+        'Panel5
+        '
+        Me.Panel5.BackColor = System.Drawing.Color.Transparent
+        Me.Panel5.Controls.Add(Me.PanelEmployees)
+        Me.Panel5.Controls.Add(Me.PanelReports)
+        Me.Panel5.Controls.Add(Me.PanelAccounting)
+        Me.Panel5.Controls.Add(Me.PanelStatistics)
+        Me.Panel5.Controls.Add(Me.PanelCustomer)
+        Me.Panel5.Controls.Add(Me.PanelStock)
+        Me.Panel5.Controls.Add(Me.PanelSecurity)
+        Me.Panel5.Controls.Add(Me.PanelVendor)
+        Me.Panel5.Controls.Add(Me.PanelSettings)
+        Me.Panel5.Controls.Add(Me.BtnActivatePanel)
+        Me.Panel5.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Panel5.Location = New System.Drawing.Point(1178, 75)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Panel5.Size = New System.Drawing.Size(320, 838)
+        Me.Panel5.TabIndex = 93
+        '
+        'PanelAccounting
+        '
+        Me.PanelAccounting.AutoScroll = true
+        Me.PanelAccounting.BackColor = System.Drawing.Color.Transparent
+        Me.PanelAccounting.Controls.Add(Me.RptIncome)
+        Me.PanelAccounting.Controls.Add(Me.BtnPaySalary)
+        Me.PanelAccounting.Controls.Add(Me.BtnPayAllSalaries)
+        Me.PanelAccounting.Controls.Add(Me.MenuEmpAccounts)
+        Me.PanelAccounting.Controls.Add(Me.MenuDepPro)
+        Me.PanelAccounting.Controls.Add(Me.MenuBalanceSheet)
+        Me.PanelAccounting.Controls.Add(Me.MenuBalanceBook)
+        Me.PanelAccounting.Controls.Add(Me.MenuMasterRecord)
+        Me.PanelAccounting.Controls.Add(Me.Panel19)
+        Me.PanelAccounting.Controls.Add(Me.Button18)
+        Me.PanelAccounting.Controls.Add(Me.Panel18)
+        Me.PanelAccounting.Controls.Add(Me.Banks)
+        Me.PanelAccounting.Controls.Add(Me.Panel17)
+        Me.PanelAccounting.Controls.Add(Me.Cheques)
+        Me.PanelAccounting.Controls.Add(Me.Panel16)
+        Me.PanelAccounting.Controls.Add(Me.constraint)
+        Me.PanelAccounting.Controls.Add(Me.MenuDailyProNames)
+        Me.PanelAccounting.Controls.Add(Me.MenuIncomeDetailsByPeriod)
+        Me.PanelAccounting.Controls.Add(Me.Panel10)
+        Me.PanelAccounting.Controls.Add(Me.MenuExpenses)
+        Me.PanelAccounting.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelAccounting.ForeColor = System.Drawing.Color.White
+        Me.PanelAccounting.Location = New System.Drawing.Point(23, 0)
+        Me.PanelAccounting.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.PanelAccounting.Name = "PanelAccounting"
+        Me.PanelAccounting.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.PanelAccounting.Size = New System.Drawing.Size(297, 838)
+        Me.PanelAccounting.TabIndex = 97
+        Me.PanelAccounting.Visible = false
+        '
         'RptIncome
         '
         Me.RptIncome.BackgroundImage = CType(resources.GetObject("RptIncome.BackgroundImage"),System.Drawing.Image)
@@ -2277,6 +1958,18 @@ Partial Class Form1
         Me.MenuMasterRecord.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.MenuMasterRecord.UseVisualStyleBackColor = true
         '
+        'Panel19
+        '
+        Me.Panel19.Controls.Add(Me.MenuMoneyReceivable)
+        Me.Panel19.Controls.Add(Me.MenuMoneyPayments)
+        Me.Panel19.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel19.Location = New System.Drawing.Point(0, 572)
+        Me.Panel19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel19.Name = "Panel19"
+        Me.Panel19.Size = New System.Drawing.Size(276, 70)
+        Me.Panel19.TabIndex = 58
+        Me.Panel19.Visible = false
+        '
         'MenuMoneyReceivable
         '
         Me.MenuMoneyReceivable.BackColor = System.Drawing.Color.Transparent
@@ -2340,6 +2033,19 @@ Partial Class Form1
         Me.Button18.Text = "إذونات الدفع"
         Me.Button18.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.Button18.UseVisualStyleBackColor = false
+        '
+        'Panel18
+        '
+        Me.Panel18.Controls.Add(Me.MenuBanks)
+        Me.Panel18.Controls.Add(Me.MenuBanksAccounts)
+        Me.Panel18.Controls.Add(Me.BtnVisa)
+        Me.Panel18.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel18.Location = New System.Drawing.Point(0, 432)
+        Me.Panel18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel18.Name = "Panel18"
+        Me.Panel18.Size = New System.Drawing.Size(276, 106)
+        Me.Panel18.TabIndex = 56
+        Me.Panel18.Visible = false
         '
         'MenuBanks
         '
@@ -2434,6 +2140,18 @@ Partial Class Form1
         Me.Banks.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.Banks.UseVisualStyleBackColor = false
         '
+        'Panel17
+        '
+        Me.Panel17.Controls.Add(Me.MenuCheques)
+        Me.Panel17.Controls.Add(Me.MenuChequeStatus)
+        Me.Panel17.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel17.Location = New System.Drawing.Point(0, 329)
+        Me.Panel17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel17.Name = "Panel17"
+        Me.Panel17.Size = New System.Drawing.Size(276, 69)
+        Me.Panel17.TabIndex = 54
+        Me.Panel17.Visible = false
+        '
         'MenuCheques
         '
         Me.MenuCheques.BackColor = System.Drawing.Color.Transparent
@@ -2496,6 +2214,18 @@ Partial Class Form1
         Me.Cheques.Text = "الشيكات"
         Me.Cheques.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.Cheques.UseVisualStyleBackColor = false
+        '
+        'Panel16
+        '
+        Me.Panel16.Controls.Add(Me.MenuDailyProcedures)
+        Me.Panel16.Controls.Add(Me.MenuNewProcedureTran)
+        Me.Panel16.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel16.Location = New System.Drawing.Point(0, 226)
+        Me.Panel16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(276, 66)
+        Me.Panel16.TabIndex = 52
+        Me.Panel16.Visible = false
         '
         'MenuDailyProcedures
         '
@@ -2605,6 +2335,18 @@ Partial Class Form1
         Me.MenuIncomeDetailsByPeriod.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.MenuIncomeDetailsByPeriod.UseVisualStyleBackColor = true
         '
+        'Panel10
+        '
+        Me.Panel10.Controls.Add(Me.MenuExpensesOther)
+        Me.Panel10.Controls.Add(Me.MenuExpensesHeader)
+        Me.Panel10.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel10.Location = New System.Drawing.Point(0, 38)
+        Me.Panel10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(276, 68)
+        Me.Panel10.TabIndex = 48
+        Me.Panel10.Visible = false
+        '
         'MenuExpensesOther
         '
         Me.MenuExpensesOther.BackgroundImage = CType(resources.GetObject("MenuExpensesOther.BackgroundImage"),System.Drawing.Image)
@@ -2667,6 +2409,47 @@ Partial Class Form1
         Me.MenuExpenses.Text = "المصروفات"
         Me.MenuExpenses.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.MenuExpenses.UseVisualStyleBackColor = false
+        '
+        'PanelStatistics
+        '
+        Me.PanelStatistics.BackColor = System.Drawing.Color.Transparent
+        Me.PanelStatistics.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelStatistics.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.PanelStatistics.ForeColor = System.Drawing.Color.White
+        Me.PanelStatistics.Location = New System.Drawing.Point(23, 0)
+        Me.PanelStatistics.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.PanelStatistics.Name = "PanelStatistics"
+        Me.PanelStatistics.Size = New System.Drawing.Size(297, 838)
+        Me.PanelStatistics.TabIndex = 98
+        Me.PanelStatistics.Visible = false
+        '
+        'PanelCustomer
+        '
+        Me.PanelCustomer.BackColor = System.Drawing.Color.Transparent
+        Me.PanelCustomer.Controls.Add(Me.BntSubscReturn)
+        Me.PanelCustomer.Controls.Add(Me.BtnCompanies)
+        Me.PanelCustomer.Controls.Add(Me.BtnCustOrderEvaluation)
+        Me.PanelCustomer.Controls.Add(Me.BtnCustEvaluation)
+        Me.PanelCustomer.Controls.Add(Me.BtnEvaluationCategory)
+        Me.PanelCustomer.Controls.Add(Me.BtnSpecialSub)
+        Me.PanelCustomer.Controls.Add(Me.BtnSpecialSubCa)
+        Me.PanelCustomer.Controls.Add(Me.BtnCustomersAttendance)
+        Me.PanelCustomer.Controls.Add(Me.BtnSubDaily)
+        Me.PanelCustomer.Controls.Add(Me.BtnCustomerSubscription)
+        Me.PanelCustomer.Controls.Add(Me.BtnSubscriptions)
+        Me.PanelCustomer.Controls.Add(Me.BtnSubscripionsCategories)
+        Me.PanelCustomer.Controls.Add(Me.BtnCustomerReturns)
+        Me.PanelCustomer.Controls.Add(Me.BtnSalesOrder)
+        Me.PanelCustomer.Controls.Add(Me.BtnCustomers)
+        Me.PanelCustomer.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelCustomer.ForeColor = System.Drawing.Color.White
+        Me.PanelCustomer.Location = New System.Drawing.Point(23, 0)
+        Me.PanelCustomer.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.PanelCustomer.Name = "PanelCustomer"
+        Me.PanelCustomer.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.PanelCustomer.Size = New System.Drawing.Size(297, 838)
+        Me.PanelCustomer.TabIndex = 95
+        Me.PanelCustomer.Visible = false
         '
         'BntSubscReturn
         '
@@ -2973,6 +2756,30 @@ Partial Class Form1
         Me.BtnCustomers.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.BtnCustomers.UseVisualStyleBackColor = true
         '
+        'PanelStock
+        '
+        Me.PanelStock.BackColor = System.Drawing.Color.Transparent
+        Me.PanelStock.Controls.Add(Me.BtnAdjustments)
+        Me.PanelStock.Controls.Add(Me.BtnCheckDetails)
+        Me.PanelStock.Controls.Add(Me.BtnCheckHeader)
+        Me.PanelStock.Controls.Add(Me.BtnItemsOut)
+        Me.PanelStock.Controls.Add(Me.BtnStocks)
+        Me.PanelStock.Controls.Add(Me.BtnCategories)
+        Me.PanelStock.Controls.Add(Me.BtnItemsStocks)
+        Me.PanelStock.Controls.Add(Me.BtnUmDetails)
+        Me.PanelStock.Controls.Add(Me.BtnUmMaster)
+        Me.PanelStock.Controls.Add(Me.BtnCorporations)
+        Me.PanelStock.Controls.Add(Me.BtnItems)
+        Me.PanelStock.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelStock.ForeColor = System.Drawing.Color.White
+        Me.PanelStock.Location = New System.Drawing.Point(23, 0)
+        Me.PanelStock.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.PanelStock.Name = "PanelStock"
+        Me.PanelStock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.PanelStock.Size = New System.Drawing.Size(297, 838)
+        Me.PanelStock.TabIndex = 95
+        Me.PanelStock.Visible = false
+        '
         'BtnAdjustments
         '
         Me.BtnAdjustments.BackgroundImage = CType(resources.GetObject("BtnAdjustments.BackgroundImage"),System.Drawing.Image)
@@ -3226,74 +3033,22 @@ Partial Class Form1
         Me.BtnItems.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.BtnItems.UseVisualStyleBackColor = false
         '
-        'BtnApp_Users
+        'PanelVendor
         '
-        Me.BtnApp_Users.BackgroundImage = CType(resources.GetObject("BtnApp_Users.BackgroundImage"),System.Drawing.Image)
-        Me.BtnApp_Users.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnApp_Users.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnApp_Users.FlatAppearance.BorderSize = 0
-        Me.BtnApp_Users.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnApp_Users.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnApp_Users.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnApp_Users.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnApp_Users.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnApp_Users.ImageKey = "package_games_rpg.png"
-        Me.BtnApp_Users.ImageList = Me.ButtonsImages
-        Me.BtnApp_Users.Location = New System.Drawing.Point(0, 79)
-        Me.BtnApp_Users.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnApp_Users.Name = "BtnApp_Users"
-        Me.BtnApp_Users.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnApp_Users.Size = New System.Drawing.Size(297, 38)
-        Me.BtnApp_Users.TabIndex = 29
-        Me.BtnApp_Users.Text = "بيانات المستخدميين"
-        Me.BtnApp_Users.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnApp_Users.UseVisualStyleBackColor = true
-        '
-        'BtnSecurityGroupDetails
-        '
-        Me.BtnSecurityGroupDetails.BackgroundImage = CType(resources.GetObject("BtnSecurityGroupDetails.BackgroundImage"),System.Drawing.Image)
-        Me.BtnSecurityGroupDetails.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnSecurityGroupDetails.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnSecurityGroupDetails.FlatAppearance.BorderSize = 0
-        Me.BtnSecurityGroupDetails.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnSecurityGroupDetails.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnSecurityGroupDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnSecurityGroupDetails.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnSecurityGroupDetails.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnSecurityGroupDetails.ImageKey = "Login Manager2.png"
-        Me.BtnSecurityGroupDetails.ImageList = Me.ButtonsImages
-        Me.BtnSecurityGroupDetails.Location = New System.Drawing.Point(0, 41)
-        Me.BtnSecurityGroupDetails.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnSecurityGroupDetails.Name = "BtnSecurityGroupDetails"
-        Me.BtnSecurityGroupDetails.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnSecurityGroupDetails.Size = New System.Drawing.Size(297, 38)
-        Me.BtnSecurityGroupDetails.TabIndex = 21
-        Me.BtnSecurityGroupDetails.Text = "صلاحيات مجموعه الآمان"
-        Me.BtnSecurityGroupDetails.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnSecurityGroupDetails.UseVisualStyleBackColor = true
-        '
-        'BtnSecurityGroupHeader
-        '
-        Me.BtnSecurityGroupHeader.BackgroundImage = CType(resources.GetObject("BtnSecurityGroupHeader.BackgroundImage"),System.Drawing.Image)
-        Me.BtnSecurityGroupHeader.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnSecurityGroupHeader.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnSecurityGroupHeader.FlatAppearance.BorderSize = 0
-        Me.BtnSecurityGroupHeader.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnSecurityGroupHeader.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnSecurityGroupHeader.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnSecurityGroupHeader.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnSecurityGroupHeader.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnSecurityGroupHeader.ImageKey = "application-pgp-signature.png"
-        Me.BtnSecurityGroupHeader.ImageList = Me.ButtonsImages
-        Me.BtnSecurityGroupHeader.Location = New System.Drawing.Point(0, 0)
-        Me.BtnSecurityGroupHeader.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnSecurityGroupHeader.Name = "BtnSecurityGroupHeader"
-        Me.BtnSecurityGroupHeader.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnSecurityGroupHeader.Size = New System.Drawing.Size(297, 41)
-        Me.BtnSecurityGroupHeader.TabIndex = 27
-        Me.BtnSecurityGroupHeader.Text = "مجموعه الآمان"
-        Me.BtnSecurityGroupHeader.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnSecurityGroupHeader.UseVisualStyleBackColor = true
+        Me.PanelVendor.BackColor = System.Drawing.Color.Transparent
+        Me.PanelVendor.Controls.Add(Me.BtnVendorReturns)
+        Me.PanelVendor.Controls.Add(Me.BtnPurchaseBill)
+        Me.PanelVendor.Controls.Add(Me.BtnItemsVendor)
+        Me.PanelVendor.Controls.Add(Me.BtnVendors)
+        Me.PanelVendor.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelVendor.ForeColor = System.Drawing.Color.White
+        Me.PanelVendor.Location = New System.Drawing.Point(23, 0)
+        Me.PanelVendor.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.PanelVendor.Name = "PanelVendor"
+        Me.PanelVendor.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.PanelVendor.Size = New System.Drawing.Size(297, 838)
+        Me.PanelVendor.TabIndex = 95
+        Me.PanelVendor.Visible = false
         '
         'BtnVendorReturns
         '
@@ -3383,252 +3138,496 @@ Partial Class Form1
         Me.BtnVendors.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.BtnVendors.UseVisualStyleBackColor = true
         '
-        'BtnLocations
+        'BtnActivatePanel
         '
-        Me.BtnLocations.BackgroundImage = CType(resources.GetObject("BtnLocations.BackgroundImage"),System.Drawing.Image)
-        Me.BtnLocations.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnLocations.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnLocations.FlatAppearance.BorderSize = 0
-        Me.BtnLocations.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnLocations.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnLocations.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnLocations.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnLocations.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnLocations.ImageKey = "(none)"
-        Me.BtnLocations.ImageList = Me.ButtonsImages
-        Me.BtnLocations.Location = New System.Drawing.Point(0, 383)
-        Me.BtnLocations.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnLocations.Name = "BtnLocations"
-        Me.BtnLocations.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnLocations.Size = New System.Drawing.Size(297, 38)
-        Me.BtnLocations.TabIndex = 38
-        Me.BtnLocations.Text = "الأحياء"
-        Me.BtnLocations.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnLocations.UseVisualStyleBackColor = true
+        Me.BtnActivatePanel.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.BtnActivatePanel.Dock = System.Windows.Forms.DockStyle.Left
+        Me.BtnActivatePanel.Location = New System.Drawing.Point(0, 0)
+        Me.BtnActivatePanel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnActivatePanel.Name = "BtnActivatePanel"
+        Me.BtnActivatePanel.Size = New System.Drawing.Size(23, 838)
+        Me.BtnActivatePanel.TabIndex = 48
+        Me.BtnActivatePanel.Text = "<>"
+        Me.BtnActivatePanel.UseVisualStyleBackColor = false
         '
-        'BtnRegions
+        'Panel2
         '
-        Me.BtnRegions.BackgroundImage = CType(resources.GetObject("BtnRegions.BackgroundImage"),System.Drawing.Image)
-        Me.BtnRegions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnRegions.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnRegions.FlatAppearance.BorderSize = 0
-        Me.BtnRegions.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnRegions.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnRegions.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnRegions.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnRegions.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnRegions.ImageKey = "(none)"
-        Me.BtnRegions.ImageList = Me.ButtonsImages
-        Me.BtnRegions.Location = New System.Drawing.Point(0, 345)
-        Me.BtnRegions.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnRegions.Name = "BtnRegions"
-        Me.BtnRegions.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnRegions.Size = New System.Drawing.Size(297, 38)
-        Me.BtnRegions.TabIndex = 37
-        Me.BtnRegions.Text = "المناطق"
-        Me.BtnRegions.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnRegions.UseVisualStyleBackColor = true
+        Me.Panel2.AutoScroll = true
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192,Byte),Integer), CType(CType(192,Byte),Integer), CType(CType(255,Byte),Integer))
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.Panel7)
+        Me.Panel2.Controls.Add(Me.Panel6)
+        Me.Panel2.Controls.Add(Me.bydaily)
+        Me.Panel2.Controls.Add(Me.Panel3)
+        Me.Panel2.Controls.Add(Me.bysubsc)
+        Me.Panel2.Controls.Add(Me.GroupBox5)
+        Me.Panel2.Controls.Add(Me.Button6)
+        Me.Panel2.Controls.Add(Me.GroupBox1)
+        Me.Panel2.Controls.Add(Me.GroupBox4)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Panel2.Location = New System.Drawing.Point(0, 75)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(252, 838)
+        Me.Panel2.TabIndex = 95
+        Me.Panel2.Tag = "Shown"
         '
-        'BtnCities
+        'Panel7
         '
-        Me.BtnCities.BackgroundImage = CType(resources.GetObject("BtnCities.BackgroundImage"),System.Drawing.Image)
-        Me.BtnCities.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnCities.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnCities.FlatAppearance.BorderSize = 0
-        Me.BtnCities.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnCities.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnCities.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnCities.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnCities.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnCities.ImageKey = "(none)"
-        Me.BtnCities.ImageList = Me.ButtonsImages
-        Me.BtnCities.Location = New System.Drawing.Point(0, 307)
-        Me.BtnCities.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnCities.Name = "BtnCities"
-        Me.BtnCities.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnCities.Size = New System.Drawing.Size(297, 38)
-        Me.BtnCities.TabIndex = 36
-        Me.BtnCities.Text = "المدن"
-        Me.BtnCities.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnCities.UseVisualStyleBackColor = true
+        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel7.Controls.Add(Me.btnReceiv)
+        Me.Panel7.Controls.Add(Me.Label9)
+        Me.Panel7.Controls.Add(Me.Label6)
+        Me.Panel7.Controls.Add(Me.CustBalance)
+        Me.Panel7.Controls.Add(Me.CustAttendance)
+        Me.Panel7.Location = New System.Drawing.Point(8, 230)
+        Me.Panel7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(233, 126)
+        Me.Panel7.TabIndex = 143
         '
-        'BtnCountries
+        'btnReceiv
         '
-        Me.BtnCountries.BackgroundImage = CType(resources.GetObject("BtnCountries.BackgroundImage"),System.Drawing.Image)
-        Me.BtnCountries.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnCountries.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnCountries.FlatAppearance.BorderSize = 0
-        Me.BtnCountries.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnCountries.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnCountries.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnCountries.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnCountries.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnCountries.ImageKey = "(none)"
-        Me.BtnCountries.ImageList = Me.ButtonsImages
-        Me.BtnCountries.Location = New System.Drawing.Point(0, 269)
-        Me.BtnCountries.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnCountries.Name = "BtnCountries"
-        Me.BtnCountries.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnCountries.Size = New System.Drawing.Size(297, 38)
-        Me.BtnCountries.TabIndex = 35
-        Me.BtnCountries.Text = "الدول"
-        Me.BtnCountries.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnCountries.UseVisualStyleBackColor = true
+        Me.btnReceiv.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left)  _
+            Or System.Windows.Forms.AnchorStyles.Right),System.Windows.Forms.AnchorStyles)
+        Me.btnReceiv.BackColor = System.Drawing.Color.Transparent
+        Me.btnReceiv.BackgroundImage = Global.GYM.My.Resources.Resources.Back
+        Me.btnReceiv.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnReceiv.FlatAppearance.BorderSize = 0
+        Me.btnReceiv.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btnReceiv.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.btnReceiv.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReceiv.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnReceiv.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.btnReceiv.ImageKey = "up-icon.png"
+        Me.btnReceiv.Location = New System.Drawing.Point(8, 2)
+        Me.btnReceiv.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.btnReceiv.Name = "btnReceiv"
+        Me.btnReceiv.Size = New System.Drawing.Size(28, 30)
+        Me.btnReceiv.TabIndex = 142
+        Me.btnReceiv.UseVisualStyleBackColor = false
         '
-        'BtnSetDefault
+        'Label9
         '
-        Me.BtnSetDefault.BackgroundImage = CType(resources.GetObject("BtnSetDefault.BackgroundImage"),System.Drawing.Image)
-        Me.BtnSetDefault.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnSetDefault.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnSetDefault.FlatAppearance.BorderSize = 0
-        Me.BtnSetDefault.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnSetDefault.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnSetDefault.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnSetDefault.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnSetDefault.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnSetDefault.ImageKey = "default-applications-capplet.png"
-        Me.BtnSetDefault.ImageList = Me.ButtonsImages
-        Me.BtnSetDefault.Location = New System.Drawing.Point(0, 231)
-        Me.BtnSetDefault.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnSetDefault.Name = "BtnSetDefault"
-        Me.BtnSetDefault.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnSetDefault.Size = New System.Drawing.Size(297, 38)
-        Me.BtnSetDefault.TabIndex = 29
-        Me.BtnSetDefault.Text = "الوضع الإفتراضى"
-        Me.BtnSetDefault.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnSetDefault.UseVisualStyleBackColor = true
+        Me.Label9.AutoSize = true
+        Me.Label9.Location = New System.Drawing.Point(78, 11)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(79, 17)
+        Me.Label9.TabIndex = 4
+        Me.Label9.Text = "رصيد العميل"
         '
-        'BtnSystemCommands
+        'Label6
         '
-        Me.BtnSystemCommands.BackgroundImage = CType(resources.GetObject("BtnSystemCommands.BackgroundImage"),System.Drawing.Image)
-        Me.BtnSystemCommands.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnSystemCommands.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnSystemCommands.FlatAppearance.BorderSize = 0
-        Me.BtnSystemCommands.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnSystemCommands.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnSystemCommands.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnSystemCommands.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnSystemCommands.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnSystemCommands.ImageKey = "order-history.png"
-        Me.BtnSystemCommands.ImageList = Me.ButtonsImages
-        Me.BtnSystemCommands.Location = New System.Drawing.Point(0, 193)
-        Me.BtnSystemCommands.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnSystemCommands.Name = "BtnSystemCommands"
-        Me.BtnSystemCommands.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnSystemCommands.Size = New System.Drawing.Size(297, 38)
-        Me.BtnSystemCommands.TabIndex = 30
-        Me.BtnSystemCommands.Text = "اوامر النظام"
-        Me.BtnSystemCommands.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnSystemCommands.UseVisualStyleBackColor = true
+        Me.Label6.AutoSize = true
+        Me.Label6.Location = New System.Drawing.Point(66, 65)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(105, 17)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "عدد مرات الحضور"
         '
-        'BtnChatServer
+        'CustBalance
         '
-        Me.BtnChatServer.BackgroundImage = CType(resources.GetObject("BtnChatServer.BackgroundImage"),System.Drawing.Image)
-        Me.BtnChatServer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnChatServer.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnChatServer.FlatAppearance.BorderSize = 0
-        Me.BtnChatServer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnChatServer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnChatServer.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnChatServer.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnChatServer.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnChatServer.ImageKey = "Balloon Without Logo.png"
-        Me.BtnChatServer.ImageList = Me.ButtonsImages
-        Me.BtnChatServer.Location = New System.Drawing.Point(0, 155)
-        Me.BtnChatServer.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnChatServer.Name = "BtnChatServer"
-        Me.BtnChatServer.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnChatServer.Size = New System.Drawing.Size(297, 38)
-        Me.BtnChatServer.TabIndex = 31
-        Me.BtnChatServer.Text = "تشغيل سيرفر الشات"
-        Me.BtnChatServer.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnChatServer.UseVisualStyleBackColor = true
+        Me.CustBalance.BackColor = System.Drawing.SystemColors.Info
+        Me.CustBalance.Enabled = false
+        Me.CustBalance.Location = New System.Drawing.Point(8, 34)
+        Me.CustBalance.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.CustBalance.Name = "CustBalance"
+        Me.CustBalance.Size = New System.Drawing.Size(214, 24)
+        Me.CustBalance.TabIndex = 5
+        Me.CustBalance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'BtnChatClient
+        'CustAttendance
         '
-        Me.BtnChatClient.BackgroundImage = CType(resources.GetObject("BtnChatClient.BackgroundImage"),System.Drawing.Image)
-        Me.BtnChatClient.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnChatClient.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnChatClient.FlatAppearance.BorderSize = 0
-        Me.BtnChatClient.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnChatClient.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnChatClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnChatClient.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnChatClient.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnChatClient.ImageKey = "amsn.png"
-        Me.BtnChatClient.ImageList = Me.ButtonsImages
-        Me.BtnChatClient.Location = New System.Drawing.Point(0, 117)
-        Me.BtnChatClient.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnChatClient.Name = "BtnChatClient"
-        Me.BtnChatClient.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnChatClient.Size = New System.Drawing.Size(297, 38)
-        Me.BtnChatClient.TabIndex = 32
-        Me.BtnChatClient.Text = "الدخول للشات"
-        Me.BtnChatClient.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnChatClient.UseVisualStyleBackColor = true
+        Me.CustAttendance.BackColor = System.Drawing.SystemColors.Info
+        Me.CustAttendance.Enabled = false
+        Me.CustAttendance.Location = New System.Drawing.Point(8, 86)
+        Me.CustAttendance.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.CustAttendance.Name = "CustAttendance"
+        Me.CustAttendance.Size = New System.Drawing.Size(214, 24)
+        Me.CustAttendance.TabIndex = 4
+        Me.CustAttendance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'BtnShiftsDetails
+        'Panel6
         '
-        Me.BtnShiftsDetails.BackgroundImage = CType(resources.GetObject("BtnShiftsDetails.BackgroundImage"),System.Drawing.Image)
-        Me.BtnShiftsDetails.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnShiftsDetails.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnShiftsDetails.FlatAppearance.BorderSize = 0
-        Me.BtnShiftsDetails.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnShiftsDetails.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnShiftsDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnShiftsDetails.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnShiftsDetails.Location = New System.Drawing.Point(0, 79)
-        Me.BtnShiftsDetails.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnShiftsDetails.Name = "BtnShiftsDetails"
-        Me.BtnShiftsDetails.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnShiftsDetails.Size = New System.Drawing.Size(297, 38)
-        Me.BtnShiftsDetails.TabIndex = 33
-        Me.BtnShiftsDetails.Text = "تفاصيل الورديه "
-        Me.BtnShiftsDetails.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnShiftsDetails.UseVisualStyleBackColor = true
+        Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel6.Controls.Add(Me.Cost)
+        Me.Panel6.Controls.Add(Me.Label8)
+        Me.Panel6.Controls.Add(Me.dailysubsc)
+        Me.Panel6.Controls.Add(Me.Label7)
+        Me.Panel6.Location = New System.Drawing.Point(7, 534)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(233, 150)
+        Me.Panel6.TabIndex = 142
         '
-        'BtnShifts
+        'Cost
         '
-        Me.BtnShifts.BackgroundImage = CType(resources.GetObject("BtnShifts.BackgroundImage"),System.Drawing.Image)
-        Me.BtnShifts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnShifts.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnShifts.FlatAppearance.BorderSize = 0
-        Me.BtnShifts.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnShifts.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnShifts.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnShifts.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnShifts.Location = New System.Drawing.Point(0, 41)
-        Me.BtnShifts.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnShifts.Name = "BtnShifts"
-        Me.BtnShifts.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnShifts.Size = New System.Drawing.Size(297, 38)
-        Me.BtnShifts.TabIndex = 21
-        Me.BtnShifts.Text = "نوع الورديه"
-        Me.BtnShifts.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnShifts.UseVisualStyleBackColor = true
+        Me.Cost.BackColor = System.Drawing.SystemColors.Info
+        Me.Cost.Enabled = false
+        Me.Cost.Location = New System.Drawing.Point(7, 107)
+        Me.Cost.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Cost.Name = "Cost"
+        Me.Cost.Size = New System.Drawing.Size(214, 24)
+        Me.Cost.TabIndex = 4
+        Me.Cost.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'BtnSettings
+        'Label8
         '
-        Me.BtnSettings.BackgroundImage = CType(resources.GetObject("BtnSettings.BackgroundImage"),System.Drawing.Image)
-        Me.BtnSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnSettings.Dock = System.Windows.Forms.DockStyle.Top
-        Me.BtnSettings.FlatAppearance.BorderSize = 0
-        Me.BtnSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnSettings.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnSettings.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.BtnSettings.ImageKey = "System_Preferences.png"
-        Me.BtnSettings.ImageList = Me.ButtonsImages
-        Me.BtnSettings.Location = New System.Drawing.Point(0, 0)
-        Me.BtnSettings.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnSettings.Name = "BtnSettings"
-        Me.BtnSettings.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BtnSettings.Size = New System.Drawing.Size(297, 41)
-        Me.BtnSettings.TabIndex = 27
-        Me.BtnSettings.Text = "إعدادات البرنامج"
-        Me.BtnSettings.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.BtnSettings.UseVisualStyleBackColor = true
+        Me.Label8.AutoSize = true
+        Me.Label8.Location = New System.Drawing.Point(94, 82)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(43, 17)
+        Me.Label8.TabIndex = 139
+        Me.Label8.Text = "السعر"
+        '
+        'dailysubsc
+        '
+        Me.dailysubsc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.dailysubsc.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.dailysubsc.FormattingEnabled = true
+        Me.dailysubsc.Location = New System.Drawing.Point(6, 41)
+        Me.dailysubsc.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.dailysubsc.Name = "dailysubsc"
+        Me.dailysubsc.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.dailysubsc.Size = New System.Drawing.Size(219, 31)
+        Me.dailysubsc.TabIndex = 135
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = true
+        Me.Label7.Location = New System.Drawing.Point(87, 15)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(58, 17)
+        Me.Label7.TabIndex = 5
+        Me.Label7.Text = "الاشتراك"
+        '
+        'bydaily
+        '
+        Me.bydaily.AutoSize = true
+        Me.bydaily.Location = New System.Drawing.Point(119, 503)
+        Me.bydaily.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.bydaily.Name = "bydaily"
+        Me.bydaily.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.bydaily.Size = New System.Drawing.Size(128, 21)
+        Me.bydaily.TabIndex = 139
+        Me.bydaily.Text = "الاشتراكات الوميه"
+        Me.bydaily.UseVisualStyleBackColor = true
+        '
+        'Panel3
+        '
+        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel3.Controls.Add(Me.Label4)
+        Me.Panel3.Controls.Add(Me.Subscription_ID)
+        Me.Panel3.Location = New System.Drawing.Point(7, 402)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(233, 93)
+        Me.Panel3.TabIndex = 141
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = true
+        Me.Label4.Location = New System.Drawing.Point(87, 15)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(58, 17)
+        Me.Label4.TabIndex = 5
+        Me.Label4.Text = "الاشتراك"
+        '
+        'Subscription_ID
+        '
+        Me.Subscription_ID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Subscription_ID.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Subscription_ID.FormattingEnabled = true
+        Me.Subscription_ID.Location = New System.Drawing.Point(6, 47)
+        Me.Subscription_ID.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Subscription_ID.Name = "Subscription_ID"
+        Me.Subscription_ID.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Subscription_ID.Size = New System.Drawing.Size(219, 31)
+        Me.Subscription_ID.TabIndex = 135
+        '
+        'bysubsc
+        '
+        Me.bysubsc.AutoSize = true
+        Me.bysubsc.Checked = true
+        Me.bysubsc.Location = New System.Drawing.Point(33, 370)
+        Me.bysubsc.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.bysubsc.Name = "bysubsc"
+        Me.bysubsc.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.bysubsc.Size = New System.Drawing.Size(222, 21)
+        Me.bysubsc.TabIndex = 140
+        Me.bysubsc.TabStop = true
+        Me.bysubsc.Text = "حضور الاشتراكات الشهريه للعملاء"
+        Me.bysubsc.UseVisualStyleBackColor = true
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.coach)
+        Me.GroupBox5.Controls.Add(Me.Label5)
+        Me.GroupBox5.Location = New System.Drawing.Point(6, 695)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.GroupBox5.Size = New System.Drawing.Size(236, 91)
+        Me.GroupBox5.TabIndex = 136
+        Me.GroupBox5.TabStop = false
+        Me.GroupBox5.Text = "المدربين"
+        '
+        'coach
+        '
+        Me.coach.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
+        Me.coach.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
+        Me.coach.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.coach.FormattingEnabled = true
+        Me.coach.Location = New System.Drawing.Point(6, 44)
+        Me.coach.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.coach.Name = "coach"
+        Me.coach.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.coach.Size = New System.Drawing.Size(219, 31)
+        Me.coach.TabIndex = 136
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = true
+        Me.Label5.Location = New System.Drawing.Point(93, 18)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(48, 17)
+        Me.Label5.TabIndex = 7
+        Me.Label5.Text = "المدرب"
+        '
+        'Button6
+        '
+        Me.Button6.BackgroundImage = Global.GYM.My.Resources.Resources.button_smallBlue_search
+        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button6.FlatAppearance.BorderSize = 0
+        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Location = New System.Drawing.Point(80, 796)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(87, 28)
+        Me.Button6.TabIndex = 137
+        Me.Button6.Text = "حفظ"
+        Me.Button6.UseVisualStyleBackColor = true
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.EmpBarcode)
+        Me.GroupBox1.Location = New System.Drawing.Point(6, 5)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.GroupBox1.Size = New System.Drawing.Size(236, 86)
+        Me.GroupBox1.TabIndex = 1
+        Me.GroupBox1.TabStop = false
+        Me.GroupBox1.Text = "حضور و انصراف الموظفين"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = true
+        Me.Label1.Location = New System.Drawing.Point(80, 23)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(76, 17)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "كود الموظف"
+        '
+        'EmpBarcode
+        '
+        Me.EmpBarcode.Location = New System.Drawing.Point(8, 47)
+        Me.EmpBarcode.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.EmpBarcode.Name = "EmpBarcode"
+        Me.EmpBarcode.Size = New System.Drawing.Size(214, 24)
+        Me.EmpBarcode.TabIndex = 0
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.custcode)
+        Me.GroupBox4.Controls.Add(Me.Label2)
+        Me.GroupBox4.Controls.Add(Me.Label3)
+        Me.GroupBox4.Controls.Add(Me.custname)
+        Me.GroupBox4.Location = New System.Drawing.Point(6, 98)
+        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.GroupBox4.Size = New System.Drawing.Size(236, 124)
+        Me.GroupBox4.TabIndex = 2
+        Me.GroupBox4.TabStop = false
+        Me.GroupBox4.Text = "العميل"
+        '
+        'custcode
+        '
+        Me.custcode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest
+        Me.custcode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems
+        Me.custcode.FormattingEnabled = true
+        Me.custcode.Location = New System.Drawing.Point(6, 37)
+        Me.custcode.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.custcode.Name = "custcode"
+        Me.custcode.Size = New System.Drawing.Size(216, 24)
+        Me.custcode.TabIndex = 28
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = true
+        Me.Label2.Location = New System.Drawing.Point(83, 15)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(70, 17)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "كود العميل"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = true
+        Me.Label3.Location = New System.Drawing.Point(79, 66)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(77, 17)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "اسم العميل"
+        '
+        'custname
+        '
+        Me.custname.BackColor = System.Drawing.SystemColors.Info
+        Me.custname.Enabled = false
+        Me.custname.Location = New System.Drawing.Point(8, 89)
+        Me.custname.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.custname.Name = "custname"
+        Me.custname.Size = New System.Drawing.Size(214, 24)
+        Me.custname.TabIndex = 2
+        Me.custname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'SearchBox
+        '
+        Me.SearchBox.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.SearchBox.Location = New System.Drawing.Point(70, 26)
+        Me.SearchBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.SearchBox.Name = "SearchBox"
+        Me.SearchBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.SearchBox.Size = New System.Drawing.Size(203, 24)
+        Me.SearchBox.TabIndex = 2
+        '
+        'PanelSearch
+        '
+        Me.PanelSearch.AutoScroll = true
+        Me.PanelSearch.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.PanelSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PanelSearch.Controls.Add(Me.Button7)
+        Me.PanelSearch.Controls.Add(Me.GroupBox3)
+        Me.PanelSearch.Controls.Add(Me.GroupBox2)
+        Me.PanelSearch.Dock = System.Windows.Forms.DockStyle.Left
+        Me.PanelSearch.Location = New System.Drawing.Point(252, 75)
+        Me.PanelSearch.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.PanelSearch.Name = "PanelSearch"
+        Me.PanelSearch.Size = New System.Drawing.Size(648, 838)
+        Me.PanelSearch.TabIndex = 143
+        Me.PanelSearch.Tag = "Shown"
+        Me.PanelSearch.Visible = false
+        '
+        'Button7
+        '
+        Me.Button7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left)  _
+            Or System.Windows.Forms.AnchorStyles.Right),System.Windows.Forms.AnchorStyles)
+        Me.Button7.BackColor = System.Drawing.Color.Transparent
+        Me.Button7.BackgroundImage = Global.GYM.My.Resources.Resources.main_screen_4123
+        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button7.FlatAppearance.BorderSize = 0
+        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button7.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.Button7.ImageKey = "up-icon.png"
+        Me.Button7.ImageList = Me.ButtonsImages
+        Me.Button7.Location = New System.Drawing.Point(10, 5)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(522, 36)
+        Me.Button7.TabIndex = 141
+        Me.Button7.Text = "اخفاء"
+        Me.Button7.UseVisualStyleBackColor = false
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom)  _
+            Or System.Windows.Forms.AnchorStyles.Left)  _
+            Or System.Windows.Forms.AnchorStyles.Right),System.Windows.Forms.AnchorStyles)
+        Me.GroupBox3.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox3.Controls.Add(Me.GrdSearchDetails)
+        Me.GroupBox3.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.GroupBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.GroupBox3.Location = New System.Drawing.Point(7, 270)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.GroupBox3.Size = New System.Drawing.Size(529, 546)
+        Me.GroupBox3.TabIndex = 139
+        Me.GroupBox3.TabStop = false
+        Me.GroupBox3.Text = "تفاصيل البحث المحدد"
+        '
+        'GrdSearchDetails
+        '
+        Me.GrdSearchDetails.AllowUserToAddRows = false
+        Me.GrdSearchDetails.AllowUserToDeleteRows = false
+        Me.GrdSearchDetails.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.GrdSearchDetails.BackgroundColor = System.Drawing.Color.LightGoldenrodYellow
+        Me.GrdSearchDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.GrdSearchDetails.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GrdSearchDetails.Location = New System.Drawing.Point(3, 24)
+        Me.GrdSearchDetails.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GrdSearchDetails.Name = "GrdSearchDetails"
+        Me.GrdSearchDetails.ReadOnly = true
+        Me.GrdSearchDetails.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.GrdSearchDetails.RowHeadersVisible = false
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(192,Byte),Integer), CType(CType(192,Byte),Integer), CType(CType(255,Byte),Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
+        Me.GrdSearchDetails.RowsDefaultCellStyle = DataGridViewCellStyle3
+        Me.GrdSearchDetails.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.GrdSearchDetails.Size = New System.Drawing.Size(523, 518)
+        Me.GrdSearchDetails.TabIndex = 28
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left)  _
+            Or System.Windows.Forms.AnchorStyles.Right),System.Windows.Forms.AnchorStyles)
+        Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox2.Controls.Add(Me.GrdSearch)
+        Me.GroupBox2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.GroupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.GroupBox2.Location = New System.Drawing.Point(7, 39)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.GroupBox2.Size = New System.Drawing.Size(529, 230)
+        Me.GroupBox2.TabIndex = 140
+        Me.GroupBox2.TabStop = false
+        Me.GroupBox2.Text = "نتائج البحث"
+        '
+        'GrdSearch
+        '
+        Me.GrdSearch.AllowUserToAddRows = false
+        Me.GrdSearch.AllowUserToDeleteRows = false
+        Me.GrdSearch.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.GrdSearch.BackgroundColor = System.Drawing.Color.LightGoldenrodYellow
+        Me.GrdSearch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.GrdSearch.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.GrdSearch.Location = New System.Drawing.Point(3, 24)
+        Me.GrdSearch.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GrdSearch.Name = "GrdSearch"
+        Me.GrdSearch.ReadOnly = true
+        Me.GrdSearch.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.GrdSearch.RowHeadersVisible = false
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(192,Byte),Integer), CType(CType(192,Byte),Integer), CType(CType(255,Byte),Integer))
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black
+        Me.GrdSearch.RowsDefaultCellStyle = DataGridViewCellStyle4
+        Me.GrdSearch.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.GrdSearch.Size = New System.Drawing.Size(523, 202)
+        Me.GrdSearch.TabIndex = 27
         '
         'ToolStrip1
         '
@@ -3792,6 +3791,7 @@ Partial Class Form1
         Me.PanelSettings.ResumeLayout(false)
         Me.PanelSecurity.ResumeLayout(false)
         Me.PanelEmployees.ResumeLayout(false)
+        Me.Panel9.ResumeLayout(false)
         Me.Panel1.ResumeLayout(false)
         Me.Panel20.ResumeLayout(false)
         Me.Panel4.ResumeLayout(false)
@@ -3826,7 +3826,6 @@ Partial Class Form1
         CType(Me.GrdSearchDetails,System.ComponentModel.ISupportInitialize).EndInit
         Me.GroupBox2.ResumeLayout(false)
         CType(Me.GrdSearch,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel9.ResumeLayout(false)
         Me.ToolStrip1.ResumeLayout(false)
         Me.ToolStrip1.PerformLayout
         Me.ResumeLayout(false)

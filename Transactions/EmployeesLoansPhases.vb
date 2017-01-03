@@ -11,7 +11,6 @@ Public Class EmployeesLoansPhases
     '-------------------------------
 
     Private Sub Categories_FormClosed(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
-        Me.Close()
         B_EndLoad = False
     End Sub
 
@@ -60,7 +59,7 @@ Public Class EmployeesLoansPhases
 
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Show.Click
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ShowLoan.Click
         If Loan.Text = "" Then
             cls.MsgExclamation("»—Ã«¡ «Œ — «”„ «·ﬁ—÷")
         Else
