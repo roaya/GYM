@@ -41,7 +41,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-
+.suo
 
 # Build results
 [Dd]ebug/
@@ -54,3 +54,5 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+.vs/
+*.suo
