@@ -51,7 +51,6 @@ Partial Class Loans
         Me.BtnSearch = New System.Windows.Forms.Button()
         Me.BtnSave = New System.Windows.Forms.Button()
         Me.BtnNew = New System.Windows.Forms.Button()
-        Me.BtnDelete = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.BtnLast = New System.Windows.Forms.Button()
         Me.BtnNext = New System.Windows.Forms.Button()
@@ -65,6 +64,7 @@ Partial Class Loans
         Me.BtnHelp = New System.Windows.Forms.Button()
         Me.BtnReload = New System.Windows.Forms.Button()
         Me.BtnCancelSerach = New System.Windows.Forms.Button()
+        Me.BtnDelete = New System.Windows.Forms.Button()
         Me.ContentPanel.SuspendLayout
         Me.TabControl1.SuspendLayout
         Me.TabPage1.SuspendLayout
@@ -517,7 +517,7 @@ Partial Class Loans
         Me.MasterField1.IsNum = false
         Me.MasterField1.IsRequired = true
         Me.MasterField1.Location = New System.Drawing.Point(383, 38)
-        Me.MasterField1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.MasterField1.Margin = New System.Windows.Forms.Padding(5)
         Me.MasterField1.Name = "MasterField1"
         Me.MasterField1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.MasterField1.SetDisplayMember = "Loans.loan_Name"
@@ -537,7 +537,7 @@ Partial Class Loans
         Me.BtnExit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnExit.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnExit.Location = New System.Drawing.Point(889, 423)
+        Me.BtnExit.Location = New System.Drawing.Point(889, 266)
         Me.BtnExit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnExit.Name = "BtnExit"
         Me.BtnExit.Size = New System.Drawing.Size(176, 70)
@@ -603,25 +603,6 @@ Partial Class Loans
         Me.BtnNew.TabStop = false
         Me.BtnNew.Text = "ÌÏíÏ"
         Me.BtnNew.UseVisualStyleBackColor = false
-        '
-        'BtnDelete
-        '
-        Me.BtnDelete.BackColor = System.Drawing.Color.Transparent
-        Me.BtnDelete.BackgroundImage = Global.GYM.My.Resources.Resources.delete_1_21
-        Me.BtnDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BtnDelete.FlatAppearance.BorderSize = 0
-        Me.BtnDelete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.BtnDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.BtnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnDelete.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.BtnDelete.Location = New System.Drawing.Point(889, 346)
-        Me.BtnDelete.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnDelete.Name = "BtnDelete"
-        Me.BtnDelete.Size = New System.Drawing.Size(176, 70)
-        Me.BtnDelete.TabIndex = 96
-        Me.BtnDelete.TabStop = false
-        Me.BtnDelete.Text = "ÍÐÝ"
-        Me.BtnDelete.UseVisualStyleBackColor = false
         '
         'Label1
         '
@@ -845,6 +826,26 @@ Partial Class Loans
         Me.BtnCancelSerach.UseVisualStyleBackColor = false
         Me.BtnCancelSerach.Visible = false
         '
+        'BtnDelete
+        '
+        Me.BtnDelete.BackColor = System.Drawing.Color.Transparent
+        Me.BtnDelete.BackgroundImage = Global.GYM.My.Resources.Resources.delete_1_21
+        Me.BtnDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnDelete.FlatAppearance.BorderSize = 0
+        Me.BtnDelete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.BtnDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.BtnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnDelete.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.BtnDelete.Location = New System.Drawing.Point(889, 346)
+        Me.BtnDelete.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnDelete.Name = "BtnDelete"
+        Me.BtnDelete.Size = New System.Drawing.Size(176, 70)
+        Me.BtnDelete.TabIndex = 96
+        Me.BtnDelete.TabStop = false
+        Me.BtnDelete.Text = "ÍÐÝ"
+        Me.BtnDelete.UseVisualStyleBackColor = false
+        Me.BtnDelete.Visible = false
+        '
         'Loans
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7!, 16!)
@@ -895,7 +896,6 @@ End Sub
     Friend WithEvents BtnSearch As System.Windows.Forms.Button
     Friend WithEvents BtnSave As System.Windows.Forms.Button
     Friend WithEvents BtnNew As System.Windows.Forms.Button
-    Friend WithEvents BtnDelete As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents BtnLast As System.Windows.Forms.Button
     Friend WithEvents BtnNext As System.Windows.Forms.Button
@@ -933,4 +933,5 @@ End Sub
     Friend WithEvents Button7 As System.Windows.Forms.Button
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents Button12 As System.Windows.Forms.Button
+    Friend WithEvents BtnDelete As Button
 End Class

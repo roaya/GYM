@@ -87,7 +87,7 @@ Public Class Loans
         End Try
     End Sub
 
-    Private Sub BtnDelete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnDelete.Click
+    Private Sub BtnDelete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnDelete.Click 
         Try
             Gcls.DeleteRecord()
         Catch ex As Exception
@@ -204,6 +204,7 @@ Public Class Loans
 
     Private Sub BtnFile_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnFile.Click
         Gcls.BtnFile()
+        BtnDelete.Visible = False        
     End Sub
 
     Private Sub BtnData_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnData.Click
