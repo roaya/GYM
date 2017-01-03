@@ -737,10 +737,10 @@
     <Compile Include="ProjectControls\GeneralTextBox.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MasterField.designer.vb">
+    <Compile Include="ProjectControls\MasterField.designer.vb">
       <DependentUpon>MasterField.vb</DependentUpon>
     </Compile>
-    <Compile Include="MasterField.vb">
+    <Compile Include="ProjectControls\MasterField.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ProjectControls\SearchWindow.designer.vb">
@@ -1688,7 +1688,7 @@
     <EmbeddedResource Include="ProjectControls\GeneralTextBox.resx">
       <DependentUpon>GeneralTextBox.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MasterField.resx">
+    <EmbeddedResource Include="ProjectControls\MasterField.resx">
       <DependentUpon>MasterField.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectControls\SearchWindow.resx">
