@@ -84,16 +84,17 @@
                         AddedHours.Text = cmd.ExecuteScalar
 
                         cmd.CommandText = "select dbo.Get_Employee_Salary(" & EmployeeID.SelectedValue & ", '" & d1.ToString("MM/dd/yyyy") & "' , 'custs_cash')"
-                        If cmd.ExecuteScalar > 0 Then
+                        Dim result = cmd.ExecuteScalar
+                        If result > 0 Then
                             ExtraSubscription.ForeColor = Color.Black
                             NumSubscriptions.ForeColor = Color.Black
-                            ExtraSubsc = cmd.ExecuteScalar
-                            ExtraSubscription.Text = cmd.ExecuteScalar
+                            ExtraSubsc = result
+                            ExtraSubscription.Text = result
                         Else
                             ExtraSubscription.ForeColor = Color.Red
                             NumSubscriptions.ForeColor = Color.Red
-                            ExtraSubsc = cmd.ExecuteScalar
-                            ExtraSubscription.Text = cmd.ExecuteScalar * (-1)
+                            ExtraSubsc = result
+                            ExtraSubscription.Text = result * (-1)
                         End If
 
 
