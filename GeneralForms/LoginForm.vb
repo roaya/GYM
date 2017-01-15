@@ -21,7 +21,7 @@ Public Class LoginForm
 
             Try
                 If cn.State = ConnectionState.Closed Then
-                    cls.OpenConn("GYM", ServerNameTextBox.Text, "sa", "pass@word1", False)
+                    cls.OpenConn("GYM", ServerNameTextBox.Text, "sa", "pass@word1", True)
                 End If
             Catch ex As Exception
                 'cls.MsgCritical("Â‰«ﬂ Œÿ√ ›Ì «·« ’«· »«·”—›— »—Ã«¡ «· √ﬂœ „‰ „⁄·Ê„«  «·« ’«·", "system cannot connect to the specified server please contact system admin")

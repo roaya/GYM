@@ -35,12 +35,10 @@ Partial Class Loans
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.LoanType = New System.Windows.Forms.ComboBox()
         Me.Employee_ID = New System.Windows.Forms.ComboBox()
         Me.LoanFinished = New System.Windows.Forms.DateTimePicker()
         Me.Loandate = New System.Windows.Forms.DateTimePicker()
         Me.LoanValue = New System.Windows.Forms.NumericUpDown()
-        Me.GeneralLabel7 = New GYM.GeneralLabel()
         Me.GeneralLabel6 = New GYM.GeneralLabel()
         Me.GeneralLabel4 = New GYM.GeneralLabel()
         Me.GeneralLabel3 = New GYM.GeneralLabel()
@@ -78,12 +76,10 @@ Partial Class Loans
         Me.ContentPanel.BackgroundImage = Global.GYM.My.Resources.Resources.conatin_box_03
         Me.ContentPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ContentPanel.Controls.Add(Me.TabControl1)
-        Me.ContentPanel.Controls.Add(Me.LoanType)
         Me.ContentPanel.Controls.Add(Me.Employee_ID)
         Me.ContentPanel.Controls.Add(Me.LoanFinished)
         Me.ContentPanel.Controls.Add(Me.Loandate)
         Me.ContentPanel.Controls.Add(Me.LoanValue)
-        Me.ContentPanel.Controls.Add(Me.GeneralLabel7)
         Me.ContentPanel.Controls.Add(Me.GeneralLabel6)
         Me.ContentPanel.Controls.Add(Me.GeneralLabel4)
         Me.ContentPanel.Controls.Add(Me.GeneralLabel3)
@@ -93,7 +89,7 @@ Partial Class Loans
         Me.ContentPanel.Location = New System.Drawing.Point(14, 94)
         Me.ContentPanel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ContentPanel.Name = "ContentPanel"
-        Me.ContentPanel.Size = New System.Drawing.Size(903, 405)
+        Me.ContentPanel.Size = New System.Drawing.Size(903, 322)
         Me.ContentPanel.TabIndex = 20
         '
         'TabControl1
@@ -102,7 +98,7 @@ Partial Class Loans
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Font = New System.Drawing.Font("Tahoma", 8!, System.Drawing.FontStyle.Bold)
         Me.TabControl1.ItemSize = New System.Drawing.Size(90, 18)
-        Me.TabControl1.Location = New System.Drawing.Point(34, 82)
+        Me.TabControl1.Location = New System.Drawing.Point(34, 38)
         Me.TabControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -355,25 +351,12 @@ Partial Class Loans
         Me.Button6.Text = "«” ⁄·«„ ⁄«„ ⁄‰ „ÊŸ›"
         Me.Button6.UseVisualStyleBackColor = true
         '
-        'LoanType
-        '
-        Me.LoanType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.LoanType.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.LoanType.FormattingEnabled = true
-        Me.LoanType.Items.AddRange(New Object() {"„»·€ À«» ", "ÃœÊ·Â"})
-        Me.LoanType.Location = New System.Drawing.Point(383, 89)
-        Me.LoanType.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.LoanType.Name = "LoanType"
-        Me.LoanType.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.LoanType.Size = New System.Drawing.Size(329, 31)
-        Me.LoanType.TabIndex = 2
-        '
         'Employee_ID
         '
         Me.Employee_ID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Employee_ID.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Employee_ID.FormattingEnabled = true
-        Me.Employee_ID.Location = New System.Drawing.Point(383, 292)
+        Me.Employee_ID.Location = New System.Drawing.Point(383, 89)
         Me.Employee_ID.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Employee_ID.Name = "Employee_ID"
         Me.Employee_ID.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -416,21 +399,6 @@ Partial Class Loans
         Me.LoanValue.Size = New System.Drawing.Size(330, 30)
         Me.LoanValue.TabIndex = 3
         Me.LoanValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'GeneralLabel7
-        '
-        Me.GeneralLabel7.BackColor = System.Drawing.Color.Gainsboro
-        Me.GeneralLabel7.BackgroundImage = Global.GYM.My.Resources.Resources.conatin_box_03
-        Me.GeneralLabel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.GeneralLabel7.Font = New System.Drawing.Font("Tahoma", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline),System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0,Byte))
-        Me.GeneralLabel7.IsRequired = true
-        Me.GeneralLabel7.Location = New System.Drawing.Point(719, 89)
-        Me.GeneralLabel7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GeneralLabel7.Name = "GeneralLabel7"
-        Me.GeneralLabel7.SetLabelTxt = "‰Ê⁄ «·”·›Â :"
-        Me.GeneralLabel7.Size = New System.Drawing.Size(162, 32)
-        Me.GeneralLabel7.TabIndex = 11
-        Me.GeneralLabel7.TabStop = false
         '
         'GeneralLabel6
         '
@@ -484,7 +452,7 @@ Partial Class Loans
         Me.GeneralLabel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.GeneralLabel2.Font = New System.Drawing.Font("Tahoma", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline),System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.GeneralLabel2.IsRequired = true
-        Me.GeneralLabel2.Location = New System.Drawing.Point(719, 290)
+        Me.GeneralLabel2.Location = New System.Drawing.Point(719, 87)
         Me.GeneralLabel2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GeneralLabel2.Name = "GeneralLabel2"
         Me.GeneralLabel2.SetLabelTxt = "«”„ «·„ÊŸ› :"
@@ -611,7 +579,7 @@ Partial Class Loans
         Me.Label1.Font = New System.Drawing.Font("Tahoma", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Label1.Location = New System.Drawing.Point(224, 527)
+        Me.Label1.Location = New System.Drawing.Point(224, 431)
         Me.Label1.Name = "Label1"
         Me.Label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Label1.Size = New System.Drawing.Size(137, 24)
@@ -628,7 +596,7 @@ Partial Class Loans
         Me.BtnLast.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnLast.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnLast.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnLast.Location = New System.Drawing.Point(381, 530)
+        Me.BtnLast.Location = New System.Drawing.Point(381, 434)
         Me.BtnLast.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnLast.Name = "BtnLast"
         Me.BtnLast.Size = New System.Drawing.Size(19, 20)
@@ -646,7 +614,7 @@ Partial Class Loans
         Me.BtnNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnNext.Location = New System.Drawing.Point(421, 530)
+        Me.BtnNext.Location = New System.Drawing.Point(421, 434)
         Me.BtnNext.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnNext.Name = "BtnNext"
         Me.BtnNext.Size = New System.Drawing.Size(19, 20)
@@ -660,7 +628,7 @@ Partial Class Loans
         Me.OrderByCombo.BackColor = System.Drawing.Color.Gainsboro
         Me.OrderByCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.OrderByCombo.FormattingEnabled = true
-        Me.OrderByCombo.Location = New System.Drawing.Point(455, 529)
+        Me.OrderByCombo.Location = New System.Drawing.Point(455, 433)
         Me.OrderByCombo.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OrderByCombo.Name = "OrderByCombo"
         Me.OrderByCombo.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -675,7 +643,7 @@ Partial Class Loans
         Me.UsernameLabel.Font = New System.Drawing.Font("Tahoma", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.UsernameLabel.ForeColor = System.Drawing.Color.White
         Me.UsernameLabel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.UsernameLabel.Location = New System.Drawing.Point(638, 527)
+        Me.UsernameLabel.Location = New System.Drawing.Point(638, 431)
         Me.UsernameLabel.Name = "UsernameLabel"
         Me.UsernameLabel.Size = New System.Drawing.Size(68, 24)
         Me.UsernameLabel.TabIndex = 99
@@ -691,7 +659,7 @@ Partial Class Loans
         Me.BtnPrevious.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnPrevious.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnPrevious.Location = New System.Drawing.Point(710, 530)
+        Me.BtnPrevious.Location = New System.Drawing.Point(710, 434)
         Me.BtnPrevious.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnPrevious.Name = "BtnPrevious"
         Me.BtnPrevious.Size = New System.Drawing.Size(19, 20)
@@ -709,7 +677,7 @@ Partial Class Loans
         Me.BtnFirst.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.BtnFirst.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.BtnFirst.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnFirst.Location = New System.Drawing.Point(750, 530)
+        Me.BtnFirst.Location = New System.Drawing.Point(750, 434)
         Me.BtnFirst.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnFirst.Name = "BtnFirst"
         Me.BtnFirst.Size = New System.Drawing.Size(19, 20)
@@ -724,7 +692,7 @@ Partial Class Loans
         Me.CountRecords.Font = New System.Drawing.Font("Tahoma", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.CountRecords.ForeColor = System.Drawing.Color.White
         Me.CountRecords.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.CountRecords.Location = New System.Drawing.Point(160, 527)
+        Me.CountRecords.Location = New System.Drawing.Point(160, 431)
         Me.CountRecords.Name = "CountRecords"
         Me.CountRecords.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.CountRecords.Size = New System.Drawing.Size(69, 23)
@@ -853,7 +821,7 @@ Partial Class Loans
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer))
         Me.BackgroundImage = Global.GYM.My.Resources.Resources.enter_screen
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1079, 581)
+        Me.ClientSize = New System.Drawing.Size(1079, 472)
         Me.Controls.Add(Me.ContentPanel)
         Me.Controls.Add(Me.BtnCancelSerach)
         Me.Controls.Add(Me.BtnReload)
@@ -909,12 +877,10 @@ End Sub
     Friend WithEvents BtnHelp As System.Windows.Forms.Button
     Friend WithEvents BtnReload As System.Windows.Forms.Button
     Friend WithEvents BtnCancelSerach As System.Windows.Forms.Button
-    Friend WithEvents GeneralLabel7 As GYM.GeneralLabel
     Friend WithEvents GeneralLabel6 As GYM.GeneralLabel
     Friend WithEvents GeneralLabel4 As GYM.GeneralLabel
     Friend WithEvents GeneralLabel3 As GYM.GeneralLabel
     Friend WithEvents GeneralLabel2 As GYM.GeneralLabel
-    Friend WithEvents LoanType As System.Windows.Forms.ComboBox
     Friend WithEvents Employee_ID As System.Windows.Forms.ComboBox
     Friend WithEvents LoanFinished As System.Windows.Forms.DateTimePicker
     Friend WithEvents Loandate As System.Windows.Forms.DateTimePicker

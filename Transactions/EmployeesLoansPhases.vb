@@ -1,3 +1,4 @@
+Imports System.Linq
 Public Class EmployeesLoansPhases
 
     Dim Gcls As GeneralSp.NewMasterForms
@@ -48,7 +49,7 @@ Public Class EmployeesLoansPhases
 
             'Loop
             'dr.Close()
-            cls.RefreshData("select * from loans where employee_id=" & Emp.SelectedValue & " and loan_type=N'" & "ÃœÊ·Â" & "'", tbl)
+            cls.RefreshData("select * from loans where employee_id=" & Emp.SelectedValue, tbl)
             Loan.DataSource = tbl
             Loan.DisplayMember = "loan_name"
             Loan.ValueMember = "loan_id"
@@ -84,30 +85,73 @@ Public Class EmployeesLoansPhases
         Dim d As Date
         Dim b As String
         Dim c As Integer
-        Dim V As Double
-        
+        Dim v As Double
 
-        If DG.SelectedRows.Count <= 0 Then
+
+        If DG.SelectedRows.Count <= 0 And Value.Value = 0 Then
             cls.MsgInfo("»—Ã«¡ «Œ — «·› —… «·„—«œ œ›⁄Â«")
         Else
-            d = DG.SelectedRows(0).Cells(4).Value
-            b = DG.SelectedRows(0).Cells(3).Value
-            V = DG.SelectedRows(0).Cells(2).Value
-
             cmd.CommandText = "select procedure_master_id from procedure_master where reference_id=" & Emp.SelectedValue & " and procedure_category=N'√—’œÂ „œÌ‰Â'"
             c = cmd.ExecuteScalar
+            cmd.CommandText = "select isnull(max(rec_ID),1) from Money_Receivables"
+            Dim recId = Integer.Parse(cmd.ExecuteScalar) + 1
 
-            If b = "„œ›Ê⁄" Then
-                cls.MsgExclamation("Â–Â «·› —Â  „ œ›⁄Â« „‰ ﬁ»·")
+            If DG.SelectedRows.Count > 0 Then
+                d = DG.SelectedRows(0).Cells(4).Value
+                b = DG.SelectedRows(0).Cells(3).Value
+                v = DG.SelectedRows(0).Cells(2).Value
+
+                If b = "„œ›Ê⁄" Then
+                    cls.MsgExclamation("Â–Â «·› —Â  „ œ›⁄Â« „‰ ﬁ»·")
+                Else
+                    cmd.CommandText = "update loans_details set phase_status=N'" & "„œ›Ê⁄" & "' where loan_id=" & ID & " and pay_date='" & d.ToString("MM/dd/yyyy") & "'"
+                    cmd.ExecuteNonQuery()
+                    cmd.CommandText = "insert into procedure_details(from_procedure_master_id,to_procedure_master_id,procedure_value,procedure_date,procedure_desc) values(" & 4 & "," & c & "," & v & ",GETDATE()" & ",N'" & "”œ«œ ﬁ”ÿ ”·›Â" & "')"
+                    cmd.ExecuteNonQuery()
+                    cmd.CommandText = "INSERT INTO Money_Receivables(Rec_ID,From_Procedure_Master_ID,Rec_Date,Rec_Value,Rec_Type)VALUES(" & recId & "," & c & ",GETDATE()," & v & ",N'" & "‰ﬁœÌ" & "')"
+                    cmd.ExecuteNonQuery()
+
+                End If
             Else
-                cmd.CommandText = "update loans_details set phase_status=N'" & "„œ›Ê⁄" & "' where loan_id=" & ID & " and pay_date='" & d.ToString("MM/dd/yyyy") & "'"
+                Dim startDate As Date
+                Dim endDate As Date
+                Dim rows = DG.Rows.Cast(Of DataGridViewRow)().Where(Function(r) r.Cells(3).Value.ToString() <> "„œ›Ê⁄").ToList
+                Dim sum = rows.Select(Of Double)(Function(r) r.Cells(2).Value).Sum
+                Dim val = rows(0).Cells(2).Value
+                Dim total As Double = 0
+                Dim index = 0
+                If sum < Value.Value Then
+                    cls.MsgExclamation("«·ﬁÌ„… «·„œŒ·… √ﬂ»— „‰ „« ÌÃ» ”œ«œÂ")
+                    Return
+                End If
+                startDate = rows(0).Cells(4).Value
+                If Value.Value < val Then
+                    cmd.CommandText = "update loans_details set phase_value= phase_value - " & Value.Value & " where loan_id=" & ID & " and pay_date ='" & startDate.ToString("MM/dd/yyyy") & "'"
+                    cmd.ExecuteNonQuery()
+                Else
+                    While total + val <= Value.Value
+                        endDate = rows(index).Cells(4).Value
+                        total += rows(index).Cells(2).Value
+                        index += 1
+                        val = rows(index).Cells(2).Value
+                    End While
+                    If total < Value.Value Then
+                        Dim lastDate As Date = rows(index).Cells(4).Value
+                        cmd.CommandText = "update loans_details set phase_value= phase_value - " & Value.Value - total & " where loan_id=" & ID & " and pay_date ='" & lastDate.ToString("MM/dd/yyyy") & "'"
+                        cmd.ExecuteNonQuery()
+                    End If
+                    cmd.CommandText = "update loans_details set phase_status=N'" & "„œ›Ê⁄" & "' where loan_id=" & ID & " and pay_date >='" & startDate.ToString("MM/dd/yyyy") & "'" & " and pay_date <='" & endDate.ToString("MM/dd/yyyy") & "'"
+                    cmd.ExecuteNonQuery()
+                End If
+                cmd.CommandText = "insert into procedure_details(from_procedure_master_id,to_procedure_master_id,procedure_value,procedure_date,procedure_desc) values(" & 4 & "," & c & "," & Value.Value & ",GETDATE()" & ",N'" & "”œ«œ ﬁ”ÿ ”·›Â" & "')"
                 cmd.ExecuteNonQuery()
-                cmd.CommandText = "insert into procedure_details(from_procedure_master_id,to_procedure_master_id,procedure_value,procedure_date,procedure_desc) values(" & 4 & "," & c & "," & V & ",GETDATE()" & ",N'" & "”œ«œ ﬁ”ÿ ”·›Â" & "')"
+                cmd.CommandText = "INSERT INTO Money_Receivables(Rec_ID,From_Procedure_Master_ID,Rec_Date,Rec_Value,Rec_Type)VALUES(" & recId & "," & c & ",GETDATE()," & Value.Value & ",N'" & "‰ﬁœÌ" & "')"
                 cmd.ExecuteNonQuery()
-                cls.RefreshData("Loans_Details")
 
-                cls.MsgInfo("·ﬁœ  „ «·œ›⁄ »‰Ã«Õ")
+
             End If
+            cls.RefreshData("Loans_Details")
+            cls.MsgInfo("·ﬁœ  „ «·œ›⁄ »‰Ã«Õ")
         End If
     End Sub
 End Class

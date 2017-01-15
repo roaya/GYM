@@ -46,6 +46,9 @@
             Extra_Custs.DataBindings.Add("value", BsourceSalaryGroups, "Extra_Customers")
             Custs_Disc.DataBindings.Add("value", BsourceSalaryGroups, "Less_Customers")
             Subsc_Value.DataBindings.Add("value", BsourceSalaryGroups, "Extra_Subsc")
+            Loan_Value_Limit.DataBindings.Add("value", BsourceSalaryGroups, "Loan_Value_Limit")
+            Loan_Pay_Limit.DataBindings.Add("value", BsourceSalaryGroups, "Loan_Pay_Limit")
+            Loan_Duration_Limit.DataBindings.Add("value", BsourceSalaryGroups, "Loan_Duration_Limit")
             GenericDesc.TextBox1.DataBindings.Add("Text", BsourceSalaryGroups, "Generic_Desc")
 
             SSource = BsourceSalaryGroups

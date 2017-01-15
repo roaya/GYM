@@ -1,3 +1,4 @@
+Imports System.Linq
 Public Class Loans
 
     Dim Gcls As GeneralSp.NewMasterForms
@@ -42,12 +43,11 @@ Public Class Loans
             LoanValue.DataBindings.Add("value", BsourceLoans, "Loan_Value")
             Loandate.DataBindings.Add("text", BsourceLoans, "Loan_date")
             LoanFinished.DataBindings.Add("text", BsourceLoans, "Finish_Date")
-            LoanType.DataBindings.Add("text", BsourceLoans, "Loan_Type")
             Employee_ID.DataSource = MyDs
             Employee_ID.DisplayMember = "employees.employee_Name"
             Employee_ID.ValueMember = "employees.employee_Id"
             Employee_ID.DataBindings.Add("selectedValue", BsourceLoans, "Employee_ID")
-
+           
 
 
             SSource = BsourceLoans
@@ -76,18 +76,73 @@ Public Class Loans
     End Sub
 
     Private Sub BtnSave_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnSave.Click
+        Dim reader As SqlClient.SqlDataReader
+
         Try
-            If MasterField1.TextBox1.Text = "" Or LoanType.Text = "" Or LoanValue.Value <= 0 Or Employee_ID.Text = "" Then
+            If MasterField1.TextBox1.Text = "" Or LoanValue.Value <= 0 Or Employee_ID.Text = "" Then
                 cls.MsgComplete()
-            Else
-                Gcls.SaveRecord()
+                Return
             End If
+            Dim count = MyDs.Tables(TName).AsEnumerable().Count(Function(r)  r("Employee_Id") = Employee_ID.SelectedValue.ToString And Date.Parse(r("finish_Date").ToString ()) > Date.Now )
+                     If count>0 Then
+                cls.MsgExclamation("·« Ì„ﬂ‰ ≈÷«›… ”·›… ·Â–« «·„ÊŸ› ·√‰Â ·„ Ì”œœ ﬁÌ„… «·”·› ﬂ«„·…")
+                Return
+            End If                                                              
+
+            If LoanFinished.Value <= Loandate.Value Then
+                cls.MsgExclamation(" «—ÌŒ «·”œ«œ ÌÃ» √‰ ÌﬂÊ‰ √ﬂ»— „‰  «—ÌŒ «·œ›⁄")
+                Return
+            End If
+            If (LoanFinished.Value - Loandate.Value).TotalDays < 30 Then
+                cls.MsgExclamation("«·„œ… ÌÃ» √‰  ﬂÊ‰ ‘Â— ⁄·Ï «·√ﬁ·")
+                Return
+            End If
+            Dim months = Math.Floor((LoanFinished.Value - Loandate.Value).TotalDays / 30)
+            Dim valueLimit = 0
+            Dim payLimit = 0
+            Dim duration = 0
+            Dim loanPay = LoanValue.Value / months
+
+            cmd.CommandText = "select Loan_Duration_Limit, Loan_Pay_Limit, Loan_Value_Limit from Salary_Groups g join Employees e on e.Group_ID = g.Group_ID where e.Employee_Id = @employeeId"
+            cmd.Parameters.AddWithValue("employeeId", Employee_ID.SelectedValue)
+             reader = cmd.ExecuteReader()
+
+            If reader.HasRows Then
+                Do While reader.Read()
+                    Dim s = reader(0)                 
+                    duration = reader.GetInt32(0)
+                    payLimit = reader.GetDecimal(1)
+                    valueLimit = reader.GetDecimal(2)
+                Loop
+            End If
+            reader.Close
+            cmd.CommandText=""                      
+            cmd.Parameters.Clear 
+            If LoanValue.Value > valueLimit And valueLimit <> 0 Then
+                cls.MsgExclamation("·ﬁœ  Ã«Ê“  ﬁÌ„… Â–Â «·”·›… «·Õœ «·√ﬁ’Ï «·„”„ÊÕ »Â ·Â–« «·„ÊŸ›")
+                Return
+            End If
+            If loanPay > payLimit And payLimit <> 0 Then
+                cls.MsgExclamation("·ﬁœ  Ã«Ê“  ﬁÌ„… «·œ›⁄… «·Õœ «·√ﬁ’Ï «·„”„ÊÕ »Â ·Â–« «·„ÊŸ›")
+                Return
+            End If
+            If months > duration And duration <> 0 Then
+                cls.MsgExclamation("·ﬁœ  Ã«Ê“  „œ… Â–Â «·”·›… «·Õœ «·√ﬁ’Ï «·„”„ÊÕ »Â ·Â–« «·„ÊŸ›")
+                Return
+            End If
+
+            Gcls.SaveRecord()
+
         Catch ex As Exception
+            reader.Close
+            cmd.CommandText=""                      
+            cmd.Parameters.Clear 
+
             cls.WriteError(ex.Message, TName)
         End Try
     End Sub
 
-    Private Sub BtnDelete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnDelete.Click 
+    Private Sub BtnDelete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnDelete.Click
         Try
             Gcls.DeleteRecord()
         Catch ex As Exception
@@ -204,7 +259,7 @@ Public Class Loans
 
     Private Sub BtnFile_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnFile.Click
         Gcls.BtnFile()
-        BtnDelete.Visible = False        
+        BtnDelete.Visible = False
     End Sub
 
     Private Sub BtnData_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnData.Click
@@ -215,7 +270,7 @@ Public Class Loans
         Gcls.BtnHelp()
     End Sub
 
-    
+
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         Dim m As New Employees
         m.ShowDialog()

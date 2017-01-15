@@ -1588,16 +1588,8 @@
               </xs:element>
               <xs:element name="Loan_Date" msprop:Generator_ColumnVarNameInTable="columnLoan_Date" msprop:Generator_ColumnPropNameInRow="Loan_Date" msprop:Generator_ColumnPropNameInTable="Loan_DateColumn" msprop:Generator_UserColumnName="Loan_Date" type="xs:dateTime" minOccurs="0" />
               <xs:element name="Finish_date" msprop:Generator_ColumnVarNameInTable="columnFinish_date" msprop:Generator_ColumnPropNameInRow="Finish_date" msprop:Generator_ColumnPropNameInTable="Finish_dateColumn" msprop:Generator_UserColumnName="Finish_date" type="xs:dateTime" minOccurs="0" />
-              <xs:element name="Loan_Value" msprop:Generator_ColumnVarNameInTable="columnLoan_Value" msprop:Generator_ColumnPropNameInRow="Loan_Value" msprop:Generator_ColumnPropNameInTable="Loan_ValueColumn" msprop:Generator_UserColumnName="Loan_Value" type="xs:decimal" default="0" minOccurs="0" />
-              <xs:element name="Loan_Type" msprop:Generator_ColumnVarNameInTable="columnLoan_Type" msprop:Generator_ColumnPropNameInRow="Loan_Type" msprop:Generator_ColumnPropNameInTable="Loan_TypeColumn" msprop:Generator_UserColumnName="Loan_Type" minOccurs="0">
-                <xs:simpleType>
-                  <xs:restriction base="xs:string">
-                    <xs:maxLength value="50" />
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:element>
+              <xs:element name="Loan_Value" msprop:Generator_ColumnVarNameInTable="columnLoan_Value" msprop:Generator_ColumnPropNameInRow="Loan_Value" msprop:Generator_ColumnPropNameInTable="Loan_ValueColumn" msprop:Generator_UserColumnName="Loan_Value" type="xs:decimal" default="0" minOccurs="0" />             
               <xs:element name="Employee_ID" msprop:Generator_ColumnVarNameInTable="columnEmployee_ID" msprop:Generator_ColumnPropNameInRow="Employee_ID" msprop:Generator_ColumnPropNameInTable="Employee_IDColumn" msprop:Generator_UserColumnName="Employee_ID" type="xs:int" minOccurs="0" />
-              <xs:element name="Stock_ID" msprop:Generator_ColumnVarNameInTable="columnStock_ID" msprop:Generator_ColumnPropNameInRow="Stock_ID" msprop:Generator_ColumnPropNameInTable="Stock_IDColumn" msprop:Generator_UserColumnName="Stock_ID" type="xs:int" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -3773,6 +3765,10 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
+              <xs:element name="Loan_Value_Limit" msprop:Generator_ColumnVarNameInTable="columnLoan_Value_Limit" msprop:Generator_ColumnPropNameInRow="Loan_Value_Limit" msprop:Generator_ColumnPropNameInTable="Loan_Value_LimitColumn" msprop:Generator_UserColumnName="Loan_Value_Limit" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="Loan_Pay_Limit" msprop:Generator_ColumnVarNameInTable="columnLoan_Pay_Limit" msprop:Generator_ColumnPropNameInRow="Loan_Pay_Limit" msprop:Generator_ColumnPropNameInTable="Loan_Pay_LimitColumn" msprop:Generator_UserColumnName="Loan_Pay_Limit" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="Loan_Duration_Limit" msprop:Generator_ColumnVarNameInTable="columnLoan_Duration_Limit" msprop:Generator_ColumnPropNameInRow="Loan_Duration_Limit" msprop:Generator_ColumnPropNameInTable="Loan_Duration_LimitColumn" msprop:Generator_UserColumnName="Loan_Duration_Limit" type="xs:int" default="0" minOccurs="0" />
+
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -4750,11 +4746,7 @@
     <xs:unique name="Loans_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
       <xs:selector xpath=".//mstns:Loans" />
       <xs:field xpath="mstns:Loan_ID" />
-    </xs:unique>
-    <xs:unique name="Loans_Constraint2" msdata:ConstraintName="Constraint2">
-      <xs:selector xpath=".//mstns:Loans" />
-      <xs:field xpath="mstns:Loan_Name" />
-    </xs:unique>
+    </xs:unique>  
     <xs:unique name="Customers_Attendance_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
       <xs:selector xpath=".//mstns:Customers_Attendance" />
       <xs:field xpath="mstns:Serial_PK" />

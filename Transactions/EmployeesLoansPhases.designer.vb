@@ -33,7 +33,10 @@ Partial Class EmployeesLoansPhases
         Me.Emp = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Value = New System.Windows.Forms.NumericUpDown()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.DG,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Value,System.ComponentModel.ISupportInitialize).BeginInit
         Me.SuspendLayout
         '
         'ShowLoan
@@ -47,10 +50,10 @@ Partial Class EmployeesLoansPhases
         Me.ShowLoan.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.ShowLoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ShowLoan.Font = New System.Drawing.Font("Tahoma", 11!)
-        Me.ShowLoan.Location = New System.Drawing.Point(687, 647)
+        Me.ShowLoan.Location = New System.Drawing.Point(33, 24)
         Me.ShowLoan.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ShowLoan.Name = "ShowLoan"
-        Me.ShowLoan.Size = New System.Drawing.Size(161, 55)
+        Me.ShowLoan.Size = New System.Drawing.Size(123, 36)
         Me.ShowLoan.TabIndex = 123
         Me.ShowLoan.Text = "«⁄—÷"
         Me.ShowLoan.UseVisualStyleBackColor = false
@@ -67,10 +70,10 @@ Partial Class EmployeesLoansPhases
         Me.Pay.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Pay.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Pay.Font = New System.Drawing.Font("Tahoma", 11!)
-        Me.Pay.Location = New System.Drawing.Point(344, 647)
+        Me.Pay.Location = New System.Drawing.Point(592, 538)
         Me.Pay.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Pay.Name = "Pay"
-        Me.Pay.Size = New System.Drawing.Size(161, 55)
+        Me.Pay.Size = New System.Drawing.Size(161, 35)
         Me.Pay.TabIndex = 122
         Me.Pay.Text = "«œ›⁄"
         Me.Pay.UseVisualStyleBackColor = false
@@ -82,7 +85,7 @@ Partial Class EmployeesLoansPhases
         Me.Loan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Loan.Font = New System.Drawing.Font("Tahoma", 11!)
         Me.Loan.FormattingEnabled = true
-        Me.Loan.Location = New System.Drawing.Point(108, 28)
+        Me.Loan.Location = New System.Drawing.Point(166, 27)
         Me.Loan.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Loan.Name = "Loan"
         Me.Loan.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -121,7 +124,7 @@ Partial Class EmployeesLoansPhases
         Me.DG.Name = "DG"
         Me.DG.ReadOnly = true
         Me.DG.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.DG.Size = New System.Drawing.Size(1149, 524)
+        Me.DG.Size = New System.Drawing.Size(1149, 437)
         Me.DG.TabIndex = 119
         '
         'Phase_Value
@@ -162,7 +165,7 @@ Partial Class EmployeesLoansPhases
         Me.Label1.BackColor = System.Drawing.Color.Gainsboro
         Me.Label1.Font = New System.Drawing.Font("Tahoma", 11!)
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(456, 33)
+        Me.Label1.Location = New System.Drawing.Point(514, 32)
         Me.Label1.Name = "Label1"
         Me.Label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Label1.Size = New System.Drawing.Size(77, 23)
@@ -182,6 +185,32 @@ Partial Class EmployeesLoansPhases
         Me.Label2.TabIndex = 125
         Me.Label2.Text = "«”„ «·„ÊŸ› :"
         '
+        'Value
+        '
+        Me.Value.DecimalPlaces = 2
+        Me.Value.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Value.Location = New System.Drawing.Point(758, 538)
+        Me.Value.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Value.Maximum = New Decimal(New Integer() {1000000000, 0, 0, 0})
+        Me.Value.Name = "Value"
+        Me.Value.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Value.Size = New System.Drawing.Size(332, 30)
+        Me.Value.TabIndex = 126
+        Me.Value.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = true
+        Me.Label3.BackColor = System.Drawing.Color.Gainsboro
+        Me.Label3.Font = New System.Drawing.Font("Tahoma", 11!)
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(1101, 541)
+        Me.Label3.Name = "Label3"
+        Me.Label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Label3.Size = New System.Drawing.Size(67, 23)
+        Me.Label3.TabIndex = 127
+        Me.Label3.Text = "«·ﬁÌ„…:"
+        '
         'EmployeesLoansPhases
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7!, 16!)
@@ -189,7 +218,9 @@ Partial Class EmployeesLoansPhases
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer))
         Me.BackgroundImage = Global.GYM.My.Resources.Resources.enter_screen
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1193, 727)
+        Me.ClientSize = New System.Drawing.Size(1193, 599)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Value)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ShowLoan)
@@ -208,6 +239,7 @@ Partial Class EmployeesLoansPhases
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "”œ«œ ”·› «·⁄«„·Ì‰"
         CType(Me.DG,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Value,System.ComponentModel.ISupportInitialize).EndInit
         Me.ResumeLayout(false)
         Me.PerformLayout
 
@@ -224,4 +256,6 @@ End Sub
     Friend WithEvents Phase_Value As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Phase_Status As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Phase_Date As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Value As NumericUpDown
+    Friend WithEvents Label3 As Label
 End Class
