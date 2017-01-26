@@ -117,22 +117,23 @@ Public Class EmployeesLoansPhases
                 Dim endDate As Date
                 Dim rows = DG.Rows.Cast(Of DataGridViewRow)().Where(Function(r) r.Cells(3).Value.ToString() <> "ãÏÝæÚ").ToList
                 Dim sum = rows.Select(Of Double)(Function(r) r.Cells(2).Value).Sum
-                Dim val = rows(0).Cells(2).Value
                 Dim total As Double = 0
-                Dim index = 0
+                Dim index = rows.Count - 1
+                Dim val = rows(index).Cells(2).Value
+
                 If sum < Value.Value Then
                     cls.MsgExclamation("ÇáÞíãÉ ÇáãÏÎáÉ ÃßÈÑ ãä ãÇ íÌÈ ÓÏÇÏå")
                     Return
                 End If
-                startDate = rows(0).Cells(4).Value
+                endDate = rows(index).Cells(4).Value
                 If Value.Value < val Then
                     cmd.CommandText = "update loans_details set phase_value= phase_value - " & Value.Value & " where loan_id=" & ID & " and pay_date ='" & startDate.ToString("MM/dd/yyyy") & "'"
                     cmd.ExecuteNonQuery()
                 Else
                     While total + val <= Value.Value
-                        endDate = rows(index).Cells(4).Value
+                        startDate = rows(index).Cells(4).Value
                         total += rows(index).Cells(2).Value
-                        index += 1
+                        index -= 1
                         val = rows(index).Cells(2).Value
                     End While
                     If total < Value.Value Then
