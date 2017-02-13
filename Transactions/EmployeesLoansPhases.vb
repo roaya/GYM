@@ -133,8 +133,11 @@ Public Class EmployeesLoansPhases
                     While total + val <= Value.Value
                         startDate = rows(index).Cells(4).Value
                         total += rows(index).Cells(2).Value
-                        index -= 1
+                        If index > 0 Then
+                             index -= 1
                         val = rows(index).Cells(2).Value
+                        End If
+                       
                     End While
                     If total < Value.Value Then
                         Dim lastDate As Date = rows(index).Cells(4).Value
